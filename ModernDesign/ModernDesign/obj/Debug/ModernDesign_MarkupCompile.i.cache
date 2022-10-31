@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Tom.TY.Chang\Desktop\WPF-MVVM\ModernDesign\ModernDesign\App.xaml
-11151548125
+5-1846204956
 
-8-880968378
+131167550327
 13-1505183044
-MainWindow.xaml;
+MainWindow.xaml;MVVM\View\DiscoveryView.xaml;MVVM\View\HomeView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextBoxTheme.xaml;
 
-False
+True
 
