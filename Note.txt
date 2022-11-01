@@ -1,0 +1,7 @@
+https://stackoverflow.com/questions/1761854/cant-drag-and-move-a-wpf-form
+https://stackoverflow.com/questions/46277565/stackpanel-items-dont-wrap-to-new-lines
+https://stackoverflow.com/questions/27555996/dynamically-creating-list-of-buttons-in-wpf-application
+https://wpf-tutorial.com/zh/71/%E5%88%97%E8%A1%A8%E6%8E%A7%E4%BB%B6/itemscontrol/
+https://stackoverflow.com/questions/1052342/itemscontrol-with-horizontal-orientation
+https://stackoverflow.com/questions/24158147/clipping-a-border-in-wpf
+
