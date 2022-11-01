@@ -28,6 +28,7 @@
         <ItemsControl ItemsSource="{Binding HomePageBlocks}">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
+                    <!--WrapPanel碰到邊緣會換行(外層容器要有固定大小)，StackPanel是朝同一方向無限延伸-->
                     <WrapPanel Orientation="Horizontal"/>
                 </ItemsPanelTemplate>
             </ItemsControl.ItemsPanel>

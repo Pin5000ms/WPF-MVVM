@@ -28,7 +28,7 @@ namespace ModernDesign.MVVM.ViewModel
     }
     public class Block
     {
-        public int blockW { get; set; }
+        public int blockW { get; set; }//要有 get set Binding才拿的到
         public int blockH { get; set; }
         public string Name { get; set; }
 
