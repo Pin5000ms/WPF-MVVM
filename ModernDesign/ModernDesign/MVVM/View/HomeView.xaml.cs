@@ -24,5 +24,15 @@ namespace ModernDesign.MVVM.View
         {
             InitializeComponent();
         }
+
+        private void Drop(object sender, DragEventArgs e)
+        {
+
+        }
+        private void PreviewMouseMove(object sender, MouseEventArgs e)
+        {
+            
+        }
     }
+
 }

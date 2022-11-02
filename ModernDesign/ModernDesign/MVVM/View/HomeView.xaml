@@ -34,21 +34,74 @@
             </ItemsControl.ItemsPanel>
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <!--<Button Content="{Binding ButtonContent}"/>-->
-                    <Border Width="{Binding blockW}" Height="{Binding blockH}" CornerRadius="25">
-                        <Label Content="{Binding Path=Name}"/>
+                    <!--<Border Width="{Binding blockW}" Height="{Binding blockH}" CornerRadius="25" Margin="5,5,5,5">
+                        <Label Content="{Binding Name}"/>
                         <Border.Background>
                             <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
-                                <!--<GradientStop Color="{Binding blockColor}" Offset="0.0"/>-->
+                                <GradientStop Color="{Binding blockColor}" Offset="0.0"/>
                                 <GradientStop Color="{Binding blockColor}" Offset="1"/>
                             </LinearGradientBrush>
                         </Border.Background>
-                        <!--<Border.Clip>
-                                <RectangleGeometry Rect="0,200,200,0" RadiusX="10" RadiusY="10"/>
-                            </Border.Clip>-->
-                    </Border>
+                        <Border.CommandBindings>
+                            
+                        </Border.CommandBindings>
+                    </Border>-->
+
+
+                    <Button Margin="5" Width="{Binding blockW}" Height="{Binding blockH}">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                        <Button.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                                <LinearGradientBrush.GradientStops>
+                                    <GradientStop Offset="0.0" Color="{Binding blockColor}" />
+                                </LinearGradientBrush.GradientStops>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                        <!--<Image Source="{Binding Path=PictureBitmap}"
+                                   RenderOptions.BitmapScalingMode="Fant"
+                                   Stretch="Uniform"
+                                   Height="{Binding Path=PictureHeight}"/>
+                            <Rectangle Width="{Binding blockW}" Height="{Binding blockH}" RadiusX="10" RadiusY="10"/>-->
+                    </Button>
+
+                    <!--<Button Margin="5">-->
+                        <!--<Button.Style>
+                            <Style TargetType="Button">-->
+                                <!--<Setter Property="Background">
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                                            <LinearGradientBrush.GradientStops>
+                                                <GradientStop Offset="0.0" Color="{Binding blockColor}" />
+                                            </LinearGradientBrush.GradientStops>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>-->
+                                <!--<Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="Button">
+                                            <Grid Width="{Binding blockW}" Height="{Binding blockH}">
+                                                <Rectangle Width="{Binding blockW}" Height="{Binding blockH}" RadiusX="10" RadiusY="10"/>
+                                                --><!--<ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />--><!--
+                                            </Grid>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>-->
+                            <!--</Style>
+                        </Button.Style>-->
+                    <!--</Button>-->
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
+            <ItemsControl.Resources>
+                <Style TargetType="Border">
+                    <EventSetter Event="PreviewMouseMove" Handler="PreviewMouseMove" />
+                    <EventSetter Event="Drop" Handler="Drop" />
+                    <Setter Property="AllowDrop" Value="True" />
+                </Style>
+            </ItemsControl.Resources>
         </ItemsControl>
     </Grid>
 </UserControl>
