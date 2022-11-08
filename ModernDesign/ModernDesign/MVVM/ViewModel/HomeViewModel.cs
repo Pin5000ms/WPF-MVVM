@@ -13,7 +13,7 @@ namespace ModernDesign.MVVM.ViewModel
         {
             _homePageBlocks.Add(new Block("A", 400, 200, Colors.BlueViolet));
             _homePageBlocks.Add(new Block("B", 200, 200, Colors.Gold));
-            _homePageBlocks.Add(new Block("C", 200, 200, Colors.DarkGray));
+            _homePageBlocks.Add(new Block("C", 200, 200, Colors.Aqua));
         }
 
         private List<Block> _homePageBlocks = new List<Block>();
@@ -33,12 +33,15 @@ namespace ModernDesign.MVVM.ViewModel
         public string Name { get; set; }
 
         public Color blockColor { get; set; }
+        public Brush brush { get; set; }
         public Block(string name, int w, int h, Color c)
         {
             Name = name;
             blockW = w;
             blockH = h;
             blockColor = c;
+            var converter = new BrushConverter();
+            brush = (Brush)converter.ConvertFromString(c.ToString());
         }
     }
 
