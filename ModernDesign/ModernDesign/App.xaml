@@ -10,13 +10,13 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Theme/MenuButtonTheme.xaml"/>
                 <ResourceDictionary Source="Theme/TextBoxTheme.xaml"/>
-                <ResourceDictionary Source="Theme/BlockButtonTheme.xaml"/>
             </ResourceDictionary.MergedDictionaries>
             
             <!--綁定HomeViewModel與HomeView-->
-            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+            <!--<DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
                 <view:HomeView/>
-            </DataTemplate>
+            </DataTemplate>-->
+            
             <!--綁定DiscoveryViewModel與DiscoveryView-->
             <DataTemplate DataType="{x:Type viewModel:DiscoveryViewModel}">
                 <view:DiscoveryView/>

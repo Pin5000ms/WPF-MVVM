@@ -6,6 +6,64 @@
              xmlns:local="clr-namespace:ModernDesign.MVVM.View"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <Style x:Key="RoundCorner" TargetType="{x:Type Button}">
+            <EventSetter Event="PreviewMouseMove" Handler="PreviewMouseMove"/>
+            <EventSetter Event="Drop" Handler="Drop"/>
+            <Setter Property="AllowDrop" Value="True"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid x:Name="grid">
+                            <Border x:Name="border" CornerRadius="8" BorderBrush="Black" BorderThickness="2">
+                                <Border.Background>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                                        <LinearGradientBrush.GradientStops>
+                                            <!--可以直接Binding其他View裡ViewModel的Property-->
+                                            <GradientStop Offset="0.0" Color="{Binding blockColor}" />
+                                        </LinearGradientBrush.GradientStops>
+                                    </LinearGradientBrush>
+                                </Border.Background>
+                                <ContentPresenter HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"
+                                          TextElement.FontWeight="Bold">
+                                </ContentPresenter>
+                            </Border>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <RadialGradientBrush GradientOrigin="0.496,1.052">
+                                            <RadialGradientBrush.RelativeTransform>
+                                                <TransformGroup>
+                                                    <ScaleTransform CenterX="0.5" CenterY="0.5" ScaleX="1.5" ScaleY="1.5"/>
+                                                    <TranslateTransform X="0.02" Y="0.3"/>
+                                                </TransformGroup>
+                                            </RadialGradientBrush.RelativeTransform>
+                                            <!--可以直接Binding其他View裡ViewModel的Property-->
+                                            <GradientStop Color="{Binding blockColor}" Offset="1"/>
+                                            <GradientStop Color="Transparent" Offset="0.2"/>
+                                        </RadialGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="BorderBrush" TargetName="border" Value="#FF33962B"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Opacity" TargetName="grid" Value="0.25"/>
+                            </Trigger>
+
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
     <Grid>
         <!--<TextBlock Text="Discover"
                    Foreground="White"
@@ -25,7 +83,7 @@
                                        Rect="0,0,400,200"/>
                 </Border.Clip>
             </Border>-->
-        <ItemsControl ItemsSource="{Binding HomePageBlocks}">
+        <ItemsControl ItemsSource="{Binding HomePageBlocks}" Name="blocklistview">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
                     <!--WrapPanel碰到邊緣會換行(外層容器要有固定大小)，StackPanel是朝同一方向無限延伸-->
@@ -46,7 +104,7 @@
                             
                         </Border.CommandBindings>
                     </Border>-->
-                    <Button Margin="5" Width="{Binding blockW}" Height="{Binding blockH}" Style="{DynamicResource RoundCorner}">
+                    <Button Margin="5" Width="{Binding blockW}" Height="{Binding blockH}" Style="{StaticResource RoundCorner}">
                         <!--<Button.Resources>
                             <Style TargetType="Border">
                                 <Setter Property="CornerRadius" Value="5"/>
@@ -84,11 +142,7 @@
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
             <ItemsControl.Resources>
-                <Style TargetType="Border">
-                    <EventSetter Event="PreviewMouseMove" Handler="PreviewMouseMove" />
-                    <EventSetter Event="Drop" Handler="Drop" />
-                    <Setter Property="AllowDrop" Value="True" />
-                </Style>
+                
             </ItemsControl.Resources>
         </ItemsControl>
     </Grid>

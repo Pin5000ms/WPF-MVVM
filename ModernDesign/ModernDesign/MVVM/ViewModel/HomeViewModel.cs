@@ -1,13 +1,16 @@
-﻿using System;
+﻿using ModernDesign.Core;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 using System.Windows.Media;
 
 namespace ModernDesign.MVVM.ViewModel
 {
-    class HomeViewModel
+    public class HomeViewModel : ObservableObject
     {
         public HomeViewModel()
         {
@@ -16,12 +19,17 @@ namespace ModernDesign.MVVM.ViewModel
             _homePageBlocks.Add(new Block("C", 200, 200, Colors.Aqua));
         }
 
-        private List<Block> _homePageBlocks = new List<Block>();
+        private ObservableCollection <Block> _homePageBlocks = new ObservableCollection<Block>();
 
-        public List<Block> HomePageBlocks
+        //必須用ObservableCollection，內部順序改變才會觸發事件
+        public ObservableCollection <Block> HomePageBlocks
         {
             get { return _homePageBlocks; }
-            set { _homePageBlocks = value; }
+            set 
+            { 
+                _homePageBlocks = value;
+                //OnPropertyChanged();
+            }
         }
         
 

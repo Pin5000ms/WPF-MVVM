@@ -1,4 +1,5 @@
 ﻿using ModernDesign.Core;
+using ModernDesign.MVVM.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,17 +25,19 @@ namespace ModernDesign.MVVM.ViewModel
             } 
         }
 
-        public HomeViewModel HomeVM { get; set; }
+        public HomeView HomeView { get; set; }
         public DiscoveryViewModel DiscoveryVM { get; set; }
         public MainViewModel()
         {
-            HomeVM = new HomeViewModel();
+            var HomeVM = new HomeViewModel();
+            HomeView = new HomeView(HomeVM);
+
             DiscoveryVM = new DiscoveryViewModel();
 
-            HomeViewCommand = new RelayCommand(o => { CurrentView = HomeVM; });
+            HomeViewCommand = new RelayCommand(o => { CurrentView = HomeView; });
             DiscoveryViewCommand = new RelayCommand(o => { CurrentView = DiscoveryVM; });
 
-            CurrentView = HomeVM;
+            CurrentView = HomeView;
         }
     }
 }
