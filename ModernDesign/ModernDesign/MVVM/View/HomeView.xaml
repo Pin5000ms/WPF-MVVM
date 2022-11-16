@@ -8,8 +8,11 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <UserControl.Resources>
         <Style x:Key="RoundCorner" TargetType="{x:Type Button}">
+            <EventSetter Event="PreviewMouseDown" Handler="PreviewMouseDown"/>
+            <EventSetter Event="PreviewMouseUp" Handler="PreviewMouseUp"/>
             <EventSetter Event="PreviewMouseMove" Handler="PreviewMouseMove"/>
             <EventSetter Event="Drop" Handler="Drop"/>
+            <EventSetter Event="DragLeave" Handler="DragLeave"/>
             <Setter Property="AllowDrop" Value="True"/>
             <Setter Property="HorizontalContentAlignment" Value="Center"/>
             <Setter Property="VerticalContentAlignment" Value="Center"/>
@@ -64,12 +67,7 @@
             </Setter>
         </Style>
     </UserControl.Resources>
-    <Grid>
-        <!--<TextBlock Text="Discover"
-                   Foreground="White"
-                   FontSize="28"
-                   HorizontalAlignment="Left"
-                   Margin="0,0,0,20"/>-->
+    <Grid Name="MyGrid">
         <!--<Border Width="400" Height="200">
                 <Border.Background>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
