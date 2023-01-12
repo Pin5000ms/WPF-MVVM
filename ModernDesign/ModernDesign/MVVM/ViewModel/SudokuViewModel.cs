@@ -35,6 +35,7 @@ namespace ModernDesign.MVVM.ViewModel
                 "2", "5", "4" });
             CellList.Add(new SudokuCell(CellVM3));
 
+
             var CellVM4 = new SudokuCellVM(new List<string> {
                 "", "2", "",
                 "1", "5", "",
@@ -53,6 +54,8 @@ namespace ModernDesign.MVVM.ViewModel
                 "8", "9", "" });
             CellList.Add(new SudokuCell(CellVM6));
 
+
+
             var CellVM7 = new SudokuCellVM(new List<string> {
                 "", "", "6",
                 "4", "", "7",
@@ -70,11 +73,34 @@ namespace ModernDesign.MVVM.ViewModel
                 "", "6", "2",
                 "5", "", "" });
             CellList.Add(new SudokuCell(CellVM9));
-
+            Initial();
             Solve(Puzzle);
         }
         public ObservableCollection<SudokuCell> CellList { get; set; }
 
+        private void Initial()
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                var cell = CellList[i];
+                for (int j = 0; j < 9; j++)
+                {
+                    var item = cell.CellVM.M[j];
+                    int rowBase = i / 3;
+                    int colBase = i % 3;
+                    int row = j / 3;
+                    int col = j % 3;
+                    if (item == "")
+                    {
+                        Puzzle[rowBase * 3 + row, colBase * 3 + col] = 0;
+                    }
+                    else
+                    {
+                        Puzzle[rowBase * 3 + row, colBase * 3 + col] = int.Parse(item);
+                    }
+                }
+            }
+        }
         int[,] Puzzle = new int[9, 9];
 
         private bool Solve(int[,] Puzzle)
@@ -89,7 +115,6 @@ namespace ModernDesign.MVVM.ViewModel
                 result = true;
                 return result;
             }
-
 
             for (int k = 1; k < 10; k++)
             {
@@ -124,8 +149,6 @@ namespace ModernDesign.MVVM.ViewModel
                 //{
                 //    return false;
                 //}
-
-
             }
             return result;
         }
