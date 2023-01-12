@@ -33,7 +33,8 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <TextBlock Text="Pin5000ms"
+            <TextBlock Name="AAA"
+                       Text="Pin5000ms"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Center"
                        Foreground="White"

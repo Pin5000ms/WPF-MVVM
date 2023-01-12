@@ -24,6 +24,7 @@ namespace ModernDesign
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
         //解決 WindowStyle="None" 不能拖曳的問題
@@ -34,5 +35,6 @@ namespace ModernDesign
             // Begin dragging the window
             this.DragMove();
         }
+        
     }
 }
