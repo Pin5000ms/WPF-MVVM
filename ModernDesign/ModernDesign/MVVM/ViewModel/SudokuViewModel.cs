@@ -70,86 +70,74 @@ namespace ModernDesign.MVVM.ViewModel
                 "", "6", "2",
                 "5", "", "" });
             CellList.Add(new SudokuCell(CellVM9));
-            Initial();
-            Solve(Solution);
+
+            Solve(Puzzle);
         }
         public ObservableCollection<SudokuCell> CellList { get; set; }
 
-        int[,] Matrix = new int[9, 9];
-        List<int> Solution = new List<int>();
-        private void Initial()
-        {
-            for (int i = 0; i < 9; i++)
-            {
-                var cell = CellList[i];
-                for (int j = 0; j < 9; j++)
-                {
-                    var item = cell.CellVM.M[j];
-                    int rowBase = i / 3;
-                    int colBase = i % 3;
-                    int row = j / 3;
-                    int col = j % 3;
-                    if (item == "")
-                    {
-                        Matrix[rowBase*3 + row, colBase*3 + col] = 0;
-                    }
-                    else
-                    {         
-                        Matrix[rowBase*3 + row, colBase*3 + col] = int.Parse(item);
-                    }
-                }
-            }
-        }
+        int[,] Puzzle = new int[9, 9];
 
-        private bool Solve(List<int> sol)
+        private bool Solve(int[,] Puzzle)
         {
             bool result = false;
-            
+            int row = -1;
+            int col = -1;
+            FindZeroRowCol(ref row, ref col);
 
-            int i = -1;
-            int j = -1;
-            FindZeroRowCol(Matrix, ref i, ref j);
-
-            if (i == -1 && j == -1)
+            if (row == -1 && col == -1)
             {
                 result = true;
                 return result;
             }
 
-            for (int k = 0; k < 10; k++)
+
+            for (int k = 1; k < 10; k++)
             {
-                if (CheckRowColCell(Matrix, i, j, k))
+                if (CheckRowColCell(row, col, k))
                 {
-                    //sol.Add(k);
-                    Matrix[i, j] = k;
-                    if (!Solve(sol))
+                    Puzzle[row, col] = k;
+                    if (Solve(Puzzle))
                     {
-                        //sol.RemoveAt(sol.Count - 1);
-                        //Initial();
-                        //FillSol(Matrix, sol);
-                        Matrix[i, j] = 0;
-                        if (k == 9)
-                        {
-                            return false;
-                        }
+                        result = true;
+                        return result;
+                    }
+                    else
+                    {
+                        Puzzle[row, col] = 0;
                     }
                 }
-                else if (k == 9)
-                {
-                    return false;
-                }
+
+                //if (CheckRowColCell(row, col, k))
+                //{
+                //    Puzzle[row, col] = k;
+                //    if (!Solve(Puzzle))
+                //    {
+                //        Puzzle[row, col] = 0;
+
+                //        if (k == 9)
+                //        {
+                //            return false;
+                //        }
+                //    }
+                //}
+                //else if (k == 9)
+                //{
+                //    return false;
+                //}
+
+
             }
             return result;
         }
 
-        private bool CheckRowColCell(int[,] M, int row, int col, int input)
+        private bool CheckRowColCell(int row, int col, int input)
         {
             bool result = true;
             for (int idx = 0; idx < 9; idx++)
             {
                 if (idx == col)
                     continue;
-                if(M[row, idx] == input)
+                if(Puzzle[row, idx] == input)
                 {
                     return false;
                 }
@@ -158,7 +146,7 @@ namespace ModernDesign.MVVM.ViewModel
             {
                 if (idx == row)
                     continue;
-                if (M[idx, col] == input)
+                if (Puzzle[idx, col] == input)
                 {
                     return false;
                 }
@@ -174,7 +162,7 @@ namespace ModernDesign.MVVM.ViewModel
                 {
                     if (i == row && j == col)
                         continue;
-                    if(M[i,j] == input)
+                    if(Puzzle[i,j] == input)
                     {
                         return false;
                     }
@@ -183,31 +171,13 @@ namespace ModernDesign.MVVM.ViewModel
             return result;
         }
 
-        private void FillSol(int[,] M, List<int> sol)
-        {
-            int idx = 0;
-            for (int i = 0; i < 9; i++)
-            {
-                for (int j = 0; j < 9; j++)
-                {
-                    if (M[i, j] == 0)
-                    {
-                        if (idx > sol.Count - 1)
-                            return;
-                        M[i, j] = sol[idx];
-                        idx++;
-                    }
-                }
-            }
-        }
-
-        private void FindZeroRowCol(int[,] M, ref int row, ref int col)
+        private void FindZeroRowCol(ref int row, ref int col)
         {
             for (int i = 0; i < 9; i++)//row
             {
                 for (int j = 0; j < 9; j++)//col
                 {
-                    if (M[i, j] == 0)
+                    if (Puzzle[i, j] == 0)
                     {
                         row = i;
                         col = j;
