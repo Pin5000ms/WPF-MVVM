@@ -94,52 +94,49 @@ namespace ModernDesign.MVVM.ViewModel
                         Matrix[rowBase*3 + row, colBase*3 + col] = 0;
                     }
                     else
-                    {
-                        int num;
-                        int.TryParse(item, out num);
-                        Matrix[rowBase*3 + row, colBase*3 + col] = num;
+                    {         
+                        Matrix[rowBase*3 + row, colBase*3 + col] = int.Parse(item);
                     }
                 }
             }
         }
 
-        private bool Solve(List<int> sol, int start)
+        private bool Solve(List<int> sol)
         {
             bool result = false;
-            var Combine = fillSol(Matrix, sol);
-            for (int i = 0; i < 9; i++)//row
+            
+
+            int i = -1;
+            int j = -1;
+            FindZeroRowCol(Matrix, ref i, ref j);
+
+            if (i == -1 && j == -1)
             {
-                for (int j = 0; j < 9; j++)//col
+                result = true;
+                return result;
+            }
+
+            for (int k = 0; k < 10; k++)
+            {
+                if (CheckRowColCell(Matrix, i, j, k))
                 {
-                    if(i == 8 && j== 8)
+                    //sol.Add(k);
+                    Matrix[i, j] = k;
+                    if (!Solve(sol))
                     {
-                        result = true;
-                    }
-                    if(Matrix[i,j] == 0)
-                    {
-                        for (int k = start; k < 10; k++)
+                        //sol.RemoveAt(sol.Count - 1);
+                        //Initial();
+                        //FillSol(Matrix, sol);
+                        Matrix[i, j] = 0;
+                        if (k == 9)
                         {
-                            int errcnt = 0;
-                            if(errcnt == 9)
-                            {
-                                sol.RemoveAt(sol.Count - 1);
-                                Solve(sol, sol[sol.Count - 1]);
-                            }
-                            if(CheckRowColCell(Combine, i, j, k))
-                            {
-                                sol.Add(k);
-                                if(!Solve(sol, 0))
-                                {
-                                    sol.RemoveAt(sol.Count - 1);
-                                }
-                            }
-                            else
-                            {
-                                errcnt++;
-                            }
+                            return false;
                         }
-                        
                     }
+                }
+                else if (k == 9)
+                {
+                    return false;
                 }
             }
             return result;
@@ -183,38 +180,41 @@ namespace ModernDesign.MVVM.ViewModel
                     }
                 }
             }
-
-
             return result;
         }
-        
-        private int[,] fillSol(int[,] M, List<int> sol)
+
+        private void FillSol(int[,] M, List<int> sol)
         {
-            int[,] K = new int [9, 9];
             int idx = 0;
             for (int i = 0; i < 9; i++)
             {
                 for (int j = 0; j < 9; j++)
                 {
-                    K[i, j] = M[i, j];
-                }
-            }
-            for (int i = 0; i < 9; i++)
-            {
-                for (int j = 0; j < 9; j++)
-                {
-                    
-                    if (K[i, j] == 0)
+                    if (M[i, j] == 0)
                     {
                         if (idx > sol.Count - 1)
-                            return K;
-                        K[i, j] = sol[idx];
+                            return;
+                        M[i, j] = sol[idx];
                         idx++;
                     }
                 }
             }
+        }
 
-            return K;
+        private void FindZeroRowCol(int[,] M, ref int row, ref int col)
+        {
+            for (int i = 0; i < 9; i++)//row
+            {
+                for (int j = 0; j < 9; j++)//col
+                {
+                    if (M[i, j] == 0)
+                    {
+                        row = i;
+                        col = j;
+                        return;
+                    }
+                }
+            }
         }
     }
 }
