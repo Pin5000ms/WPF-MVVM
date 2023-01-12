@@ -34,7 +34,7 @@
             </Grid.RowDefinitions>
 
             <TextBlock Name="AAA"
-                       Text="Pin5000ms"
+                       Text="TingYu"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Center"
                        Foreground="White"
@@ -48,7 +48,7 @@
                              Style="{StaticResource MenuButtonTheme}"
                              IsChecked="True"
                              Command="{Binding HomeViewCommand}"/>
-                <RadioButton Content="Discovery"
+                <RadioButton Content="WebCam"
                              Height="50"
                              Foreground="White"
                              FontSize="14"

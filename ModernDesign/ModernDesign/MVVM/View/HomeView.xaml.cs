@@ -65,15 +65,15 @@ namespace ModernDesign.MVVM.View
 
         private void PreviewMouseMove(object sender, MouseEventArgs e)
         {
-            if (_isMoving)
-            {
-                var mousePoint = Mouse.GetPosition(blocklistview);
+            //if (_isMoving)
+            //{
+            //    var mousePoint = Mouse.GetPosition(blocklistview);
 
-                var offsetX = (_currentTT == null ? _buttonPosition.Value.X : _buttonPosition.Value.X - _currentTT.X) + deltaX - mousePoint.X;
-                var offsetY = (_currentTT == null ? _buttonPosition.Value.Y : _buttonPosition.Value.Y - _currentTT.Y) + deltaY - mousePoint.Y;
+            //    var offsetX = (_currentTT == null ? _buttonPosition.Value.X : _buttonPosition.Value.X - _currentTT.X) + deltaX - mousePoint.X;
+            //    var offsetY = (_currentTT == null ? _buttonPosition.Value.Y : _buttonPosition.Value.Y - _currentTT.Y) + deltaY - mousePoint.Y;
 
-                (sender as Button).RenderTransform = new TranslateTransform(-offsetX, -offsetY);
-            };
+            //    (sender as Button).RenderTransform = new TranslateTransform(-offsetX, -offsetY);
+            //};
             if (e.LeftButton == MouseButtonState.Pressed)
             {
                 
@@ -124,18 +124,18 @@ namespace ModernDesign.MVVM.View
 
         private void PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
-            if (_buttonPosition == null)
-                _buttonPosition = (sender as Button).TransformToAncestor(blocklistview).Transform(new Point(0, 0));
-            var mousePosition = Mouse.GetPosition(blocklistview);
-            deltaX = mousePosition.X - _buttonPosition.Value.X;
-            deltaY = mousePosition.Y - _buttonPosition.Value.Y;
-            _isMoving = true;
+            //if (_buttonPosition == null)
+            //    _buttonPosition = (sender as Button).TransformToAncestor(blocklistview).Transform(new Point(0, 0));
+            //var mousePosition = Mouse.GetPosition(blocklistview);
+            //deltaX = mousePosition.X - _buttonPosition.Value.X;
+            //deltaY = mousePosition.Y - _buttonPosition.Value.Y;
+            //_isMoving = true;
         }
 
         private void PreviewMouseUp(object sender, MouseButtonEventArgs e)
         {
-            _currentTT = (sender as Button).RenderTransform as TranslateTransform;
-            _isMoving = false;
+            //_currentTT = (sender as Button).RenderTransform as TranslateTransform;
+            //_isMoving = false;
         }
     }
 

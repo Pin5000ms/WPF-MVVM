@@ -18,8 +18,20 @@ namespace ModernDesign.MVVM.ViewModel
             foreach (var item in input)
             {
                 M.Add(item);
+                
+            }
+            BorderBrush = new ObservableCollection<SolidColorBrush>();
+            for (int i = 0; i < 9; i++)
+            {
+                BorderBrush.Add(new SolidColorBrush());
+            }
+            foreach (var item in BorderBrush)
+            {
+                item.Color = Colors.Black;
             }
         }
         public ObservableCollection<string> M { get; set; }
+
+        public ObservableCollection<SolidColorBrush> BorderBrush { get; set; }
     }
 }

@@ -8,14 +8,15 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
         </Grid.RowDefinitions>
         <ContentControl Grid.Row="0"
                             Grid.Column="0"
@@ -56,8 +57,21 @@
                             Grid.Column="2"
                             Margin="1"
                             Content="{Binding CellList[8]}"/>
-
-
+        <Grid Grid.Row="3" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"></ColumnDefinition>
+                <ColumnDefinition Width="30"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBox Grid.Column="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Background="Transparent" Foreground="White" Text="{Binding WaitTime}"/>
+            <Label Grid.Column="1" Content="ms" Background="Transparent" Foreground="White"/>
+            <Button  Grid.Column="2" Content="Solve" Background="Transparent" Foreground="White" Command="{Binding SolveCommand}"/>
+            <Button  Grid.Column="3" Content="Reset" Background="Transparent" Foreground="White" Command="{Binding ResetCommand}"/>
+            <Button  Grid.Column="4" Content="Clear" Background="Transparent" Foreground="White" Command="{Binding ClearCommand}"/>
+        </Grid>
+        
 
     </Grid>
 </UserControl>

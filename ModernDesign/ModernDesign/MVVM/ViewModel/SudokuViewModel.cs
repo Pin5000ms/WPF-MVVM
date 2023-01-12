@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Windows.Media;
@@ -15,9 +16,40 @@ namespace ModernDesign.MVVM.ViewModel
     {
         public SudokuViewModel()
         {
+            WaitTime = "20";
             CellList = new ObservableCollection<SudokuCell>();
 
-            var CellVM1 = new SudokuCellVM(new List<string> { 
+            SolveCommand = new RelayCommand(   
+            o => {
+                InitialPuzzle();
+                Solve(Puzzle);
+                });
+
+            ResetCommand = new RelayCommand(
+                o => {
+                    Question1();
+                    InitialPuzzle();
+                    Update();
+                });
+            ClearCommand = new RelayCommand(
+                o => {
+                    Clear();
+                });
+
+            Question1();
+            InitialPuzzle();
+        }
+        public ObservableCollection<SudokuCell> CellList { get; set; }
+        public RelayCommand SolveCommand { get; set; }
+
+        public RelayCommand ResetCommand { get; set; }
+
+        public RelayCommand ClearCommand { get; set; }
+
+        private void Question1()
+        {
+            CellList.Clear();
+            var CellVM1 = new SudokuCellVM(new List<string> {
                 "", "6", "",
                 "2", "", "3",
                 "", "", "" });
@@ -73,12 +105,9 @@ namespace ModernDesign.MVVM.ViewModel
                 "", "6", "2",
                 "5", "", "" });
             CellList.Add(new SudokuCell(CellVM9));
-            Initial();
-            Solve(Puzzle);
         }
-        public ObservableCollection<SudokuCell> CellList { get; set; }
 
-        private void Initial()
+        private void InitialPuzzle()
         {
             for (int i = 0; i < 9; i++)
             {
@@ -101,15 +130,79 @@ namespace ModernDesign.MVVM.ViewModel
                 }
             }
         }
+
+        private void Update()
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                for (int j = 0; j < 9; j++)
+                {
+                    int rowBase = i / 3;
+                    int colBase = j / 3;
+
+                    int num = rowBase * 3 + colBase;
+                    var cell = CellList[num];
+
+                    int retRow = i - rowBase * 3;
+                    int retCol = j - colBase * 3;
+                    if(Puzzle[i, j] != 0)
+                    {
+                        cell.CellVM.M[retRow * 3 + retCol] = Puzzle[i, j].ToString();
+                    }
+                    else
+                    {
+                        cell.CellVM.M[retRow * 3 + retCol] = "";
+                    }
+                    
+                }
+            }
+        }
+
+        private void Clear()
+        {
+            CellList.Clear();
+            for (int i = 0; i < 9; i++)
+            {
+                CellList.Add(new SudokuCell(new SudokuCellVM(new List<string> {
+                "", "", "",
+                "", "", "",
+                "", "", "" })));
+            }
+        }
+        private void UpdateOneCell(int i, int j, Color c)
+        {
+            int rowBase = i / 3;
+            int colBase = j / 3;
+
+            int num = rowBase * 3 + colBase;
+            var cell = CellList[num];
+
+            int retRow = i - rowBase * 3;
+            int retCol = j - colBase * 3;
+            cell.CellVM.M[retRow * 3 + retCol] = Puzzle[i, j].ToString();
+            cell.CellVM.BorderBrush[retRow * 3 + retCol].Color = c;
+            WaitNMilliSeconds(int.Parse(WaitTime));
+        }
+
         int[,] Puzzle = new int[9, 9];
 
+
+        public string WaitTime { get; set; }
+        private void WaitNMilliSeconds(int segundos)
+        {
+            if (segundos < 1) return;
+            DateTime _desired = DateTime.Now.AddMilliseconds(segundos);
+            while (DateTime.Now < _desired)
+            {
+                System.Windows.Forms.Application.DoEvents();
+            }
+        }
         private bool Solve(int[,] Puzzle)
         {
             bool result = false;
             int row = -1;
             int col = -1;
             FindZeroRowCol(ref row, ref col);
-
             if (row == -1 && col == -1)
             {
                 result = true;
@@ -121,6 +214,7 @@ namespace ModernDesign.MVVM.ViewModel
                 if (CheckRowColCell(row, col, k))
                 {
                     Puzzle[row, col] = k;
+                    UpdateOneCell(row, col, Colors.LightGreen);
                     if (Solve(Puzzle))
                     {
                         result = true;
@@ -129,26 +223,10 @@ namespace ModernDesign.MVVM.ViewModel
                     else
                     {
                         Puzzle[row, col] = 0;
+                        UpdateOneCell(row, col, Colors.Red);
                     }
+
                 }
-
-                //if (CheckRowColCell(row, col, k))
-                //{
-                //    Puzzle[row, col] = k;
-                //    if (!Solve(Puzzle))
-                //    {
-                //        Puzzle[row, col] = 0;
-
-                //        if (k == 9)
-                //        {
-                //            return false;
-                //        }
-                //    }
-                //}
-                //else if (k == 9)
-                //{
-                //    return false;
-                //}
             }
             return result;
         }

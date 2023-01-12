@@ -45,7 +45,7 @@ namespace ModernDesign.MVVM.ViewModel
             DiscoveryViewCommand = new RelayCommand(o => { CurrentView = DiscoveryVM; });
             SudokuViewCommand = new RelayCommand(o => { CurrentView = SudokuView; });
 
-            CurrentView = HomeView;
+            CurrentView = DiscoveryVM;
 
         }
 

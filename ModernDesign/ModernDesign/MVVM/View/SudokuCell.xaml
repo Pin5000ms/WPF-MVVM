@@ -41,17 +41,17 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        
-        
-        <TextBox Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[0]}"></TextBox>
-        <TextBox Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[1]}"></TextBox>
-        <TextBox Grid.Row="0" Grid.Column="2" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[2]}"></TextBox>
-        <TextBox Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[3]}"></TextBox>
-        <TextBox Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[4]}"></TextBox>
-        <TextBox Grid.Row="1" Grid.Column="2" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[5]}"></TextBox>
-        <TextBox Grid.Row="2" Grid.Column="0" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[6]}"></TextBox>
-        <TextBox Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[7]}"></TextBox>
-        <TextBox Grid.Row="2" Grid.Column="2" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[8]}"></TextBox>
+
+
+        <TextBox Grid.Row="0" Grid.Column="0" BorderBrush="{Binding BorderBrush[0]}" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[0]}"></TextBox>
+        <TextBox Grid.Row="0" Grid.Column="1" BorderBrush="{Binding BorderBrush[1]}" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[1]}"></TextBox>
+        <TextBox Grid.Row="0" Grid.Column="2" BorderBrush="{Binding BorderBrush[2]}" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[2]}"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="0" BorderBrush="{Binding BorderBrush[3]}" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[3]}"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="1" BorderBrush="{Binding BorderBrush[4]}" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[4]}"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="2" BorderBrush="{Binding BorderBrush[5]}" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[5]}"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="0" BorderBrush="{Binding BorderBrush[6]}" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[6]}"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="1" BorderBrush="{Binding BorderBrush[7]}" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[7]}"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="2" BorderBrush="{Binding BorderBrush[8]}" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[8]}"></TextBox>
 
 
     </Grid>
