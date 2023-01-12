@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="ModernDesign.MVVM.View.SudokuCell"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ModernDesign.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.Resources>
+            <Style TargetType="TextBox">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type TextBox}">
+                            <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="2" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+                                <ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsEnabled" Value="false">
+                                    <Setter Property="Opacity" TargetName="border" Value="0.56"/>
+                                </Trigger>
+                                <Trigger Property="IsMouseOver" Value="true">
+                                    <Setter Property="BorderBrush" TargetName="border" Value="#FF7EB4EA"/>
+                                </Trigger>
+                                <Trigger Property="IsFocused" Value="true">
+                                    <Setter Property="BorderBrush" TargetName="border" Value="Red"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        
+        <TextBox Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[0]}"></TextBox>
+        <TextBox Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[1]}"></TextBox>
+        <TextBox Grid.Row="0" Grid.Column="2" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[2]}"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[3]}"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[4]}"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="2" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[5]}"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="0" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[6]}"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[7]}"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="2" BorderBrush="Black" BorderThickness="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20" TextBox.CaretBrush="Transparent" TextChanged="TextBox_TextChanged" Text="{Binding M[8]}"></TextBox>
+
+
+    </Grid>
+</UserControl>
