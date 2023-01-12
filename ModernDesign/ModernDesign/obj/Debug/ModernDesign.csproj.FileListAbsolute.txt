@@ -22,3 +22,8 @@ C:\Users\TingYu\Documents\GitHub\WPF-MVVM\ModernDesign\ModernDesign\obj\Debug\Mo
 C:\Users\TingYu\Documents\GitHub\WPF-MVVM\ModernDesign\ModernDesign\obj\Debug\ModernDesign.exe
 C:\Users\TingYu\Documents\GitHub\WPF-MVVM\ModernDesign\ModernDesign\obj\Debug\ModernDesign.pdb
 C:\Users\TingYu\Documents\GitHub\WPF-MVVM\ModernDesign\ModernDesign\obj\Debug\Theme\BlockButtonTheme.g.cs
+C:\Users\TingYu\Documents\GitHub\WPF-MVVM\ModernDesign\ModernDesign\obj\Debug\ModernDesign.csprojAssemblyReference.cache
+C:\Users\TingYu\Documents\GitHub\WPF-MVVM\ModernDesign\ModernDesign\obj\Debug\MVVM\View\SudokuView.g.cs
+C:\Users\TingYu\Documents\GitHub\WPF-MVVM\ModernDesign\ModernDesign\obj\Debug\MVVM\View\SudokuView.baml
+C:\Users\TingYu\Documents\GitHub\WPF-MVVM\ModernDesign\ModernDesign\obj\Debug\MVVM\View\SudokuCell.g.cs
+C:\Users\TingYu\Documents\GitHub\WPF-MVVM\ModernDesign\ModernDesign\obj\Debug\MVVM\View\SudokuCell.baml

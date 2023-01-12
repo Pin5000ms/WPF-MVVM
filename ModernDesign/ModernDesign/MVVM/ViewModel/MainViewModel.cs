@@ -14,6 +14,8 @@ namespace ModernDesign.MVVM.ViewModel
         public RelayCommand HomeViewCommand { get; set; }
         public RelayCommand DiscoveryViewCommand { get; set; }
 
+        public RelayCommand SudokuViewCommand { get; set; }
+
         private object _currentView;
         public object CurrentView 
         {
@@ -27,6 +29,8 @@ namespace ModernDesign.MVVM.ViewModel
 
         public HomeView HomeView { get; set; }
         public DiscoveryViewModel DiscoveryVM { get; set; }
+
+        public SudokuView SudokuView { get; set; }
         public MainViewModel()
         {
             var HomeVM = new HomeViewModel();
@@ -34,10 +38,19 @@ namespace ModernDesign.MVVM.ViewModel
 
             DiscoveryVM = new DiscoveryViewModel();
 
+            var SudokuVM = new SudokuViewModel();
+            SudokuView = new SudokuView(SudokuVM);
+
             HomeViewCommand = new RelayCommand(o => { CurrentView = HomeView; });
             DiscoveryViewCommand = new RelayCommand(o => { CurrentView = DiscoveryVM; });
+            SudokuViewCommand = new RelayCommand(o => { CurrentView = SudokuView; });
 
             CurrentView = HomeView;
+
         }
+
+        
     }
+
+
 }
