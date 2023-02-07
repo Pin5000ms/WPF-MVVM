@@ -114,7 +114,7 @@ namespace ModernDesign.MVVM.ViewModel
                 var cell = CellList[i];
                 for (int j = 0; j < 9; j++)
                 {
-                    var item = cell.CellVM.M[j];
+                    var item = cell.CellVM.CellItem[j].Number;
                     int rowBase = i / 3;
                     int colBase = i % 3;
                     int row = j / 3;
@@ -147,11 +147,11 @@ namespace ModernDesign.MVVM.ViewModel
                     int retCol = j - colBase * 3;
                     if(Puzzle[i, j] != 0)
                     {
-                        cell.CellVM.M[retRow * 3 + retCol] = Puzzle[i, j].ToString();
+                        cell.CellVM.CellItem[retRow * 3 + retCol].Number = Puzzle[i, j].ToString();
                     }
                     else
                     {
-                        cell.CellVM.M[retRow * 3 + retCol] = "";
+                        cell.CellVM.CellItem[retRow * 3 + retCol].Number = "";
                     }
                     
                 }
@@ -179,8 +179,8 @@ namespace ModernDesign.MVVM.ViewModel
 
             int retRow = i - rowBase * 3;
             int retCol = j - colBase * 3;
-            cell.CellVM.M[retRow * 3 + retCol] = Puzzle[i, j].ToString();
-            cell.CellVM.BorderBrush[retRow * 3 + retCol].Color = c;
+            cell.CellVM.CellItem[retRow * 3 + retCol].Number = Puzzle[i, j].ToString();
+            cell.CellVM.CellItem[retRow * 3 + retCol].BorderBrush.Color = c;
             WaitNMilliSeconds(int.Parse(WaitTime));
         }
 

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\TingYu\Documents\GitHub\WPF-MVVM\ModernDesign\ModernDesign\obj\Debug\
+C:\Users\Tom.TY.Chang\Desktop\WPF-MVVM\ModernDesign\ModernDesign\obj\Debug\
 ModernDesign
 none
 false
 DEBUG;TRACE
-C:\Users\TingYu\Documents\GitHub\WPF-MVVM\ModernDesign\ModernDesign\App.xaml
-8-717508686
+C:\Users\Tom.TY.Chang\Desktop\WPF-MVVM\ModernDesign\ModernDesign\App.xaml
+81445950077
 
-182100625567
-21-1455407100
-MainWindow.xaml;MVVM\View\DiscoveryView.xaml;MVVM\View\HomeView.xaml;MVVM\View\SudokuCell.xaml;MVVM\View\SudokuView.xaml;Theme\MenuButtonTheme.xaml;Theme\BlockButtonTheme.xaml;Theme\TextBoxTheme.xaml;
+181397088045
+21-203281089
+MainWindow.xaml;MVVM\View\DiscoveryView.xaml;MVVM\View\HomeView.xaml;MVVM\View\Sudoku\SudokuCell.xaml;MVVM\View\Sudoku\SudokuView.xaml;Theme\MenuButtonTheme.xaml;Theme\BlockButtonTheme.xaml;Theme\TextBoxTheme.xaml;
 
-True
+False
 

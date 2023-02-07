@@ -81,12 +81,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="MVVM\ViewModel\SudokuCellVM.cs" />
-    <Compile Include="MVVM\ViewModel\SudokuViewModel.cs" />
-    <Compile Include="MVVM\View\SudokuCell.xaml.cs">
+    <Compile Include="MVVM\ViewModel\Sudoku\SudokuCellVM.cs" />
+    <Compile Include="MVVM\ViewModel\Sudoku\SudokuViewModel.cs" />
+    <Compile Include="MVVM\View\Sudoku\SudokuCell.xaml.cs">
       <DependentUpon>SudokuCell.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MVVM\View\SudokuView.xaml.cs">
+    <Compile Include="MVVM\View\Sudoku\SudokuView.xaml.cs">
       <DependentUpon>SudokuView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Theme\BlockButton.cs" />
@@ -112,11 +112,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MVVM\View\SudokuCell.xaml">
+    <Page Include="MVVM\View\Sudoku\SudokuCell.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MVVM\View\SudokuView.xaml">
+    <Page Include="MVVM\View\Sudoku\SudokuView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

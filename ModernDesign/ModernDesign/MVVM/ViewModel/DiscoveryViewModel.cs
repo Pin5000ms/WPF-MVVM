@@ -36,7 +36,7 @@ namespace ModernDesign.MVVM.ViewModel
             set 
             { 
                 frame = value;
-                OnPropertyChanged();
+                OnPropertyChanged();//必須加 才會觸發變更
             }
         }
 
