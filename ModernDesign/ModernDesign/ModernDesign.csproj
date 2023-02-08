@@ -81,6 +81,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MVVM\Model\SudokuModel.cs" />
     <Compile Include="MVVM\ViewModel\Sudoku\SudokuCellVM.cs" />
     <Compile Include="MVVM\ViewModel\Sudoku\SudokuViewModel.cs" />
     <Compile Include="MVVM\View\Sudoku\SudokuCell.xaml.cs">
@@ -172,7 +173,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Image\" />
-    <Folder Include="MVVM\Model\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

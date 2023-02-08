@@ -1,4 +1,5 @@
 ﻿using ModernDesign.Core;
+using ModernDesign.MVVM.Model;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -44,26 +45,5 @@ namespace ModernDesign.MVVM.ViewModel
         public ObservableCollection<SudokuItem> CellItem { get; set; }
     }
 
-    public class SudokuItem : ObservableObject
-    {
-        private string number;
-
-        public string Number
-        {
-            get { return number; }
-            set 
-            {
-                number = value;
-                OnPropertyChanged();//必須加 才會觸發變更
-            }
-        }
-
-        public SolidColorBrush BorderBrush { get; set; }
-        public SudokuItem(string n, Color c)
-        {
-            Number = n;
-            BorderBrush = new SolidColorBrush();
-            BorderBrush.Color = c;
-        }
-    }
+    
 }
