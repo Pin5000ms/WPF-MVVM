@@ -2,8 +2,6 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:ModernDesign"
-             xmlns:viewModel ="clr-namespace:ModernDesign.MVVM.ViewModel"
-             xmlns:view ="clr-namespace:ModernDesign.MVVM.View"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
@@ -18,8 +16,8 @@
             </DataTemplate>-->
             
             <!--綁定DiscoveryViewModel與DiscoveryView-->
-            <DataTemplate DataType="{x:Type viewModel:DiscoveryViewModel}">
-                <view:DiscoveryView/>
+            <DataTemplate DataType="{x:Type local:WebCamViewModel}">
+                <local:WebCamView/>
             </DataTemplate>
             
             

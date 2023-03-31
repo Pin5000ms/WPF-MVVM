@@ -4,8 +4,6 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ModernDesign"
-        xmlns:viewModel ="clr-namespace:ModernDesign.MVVM.ViewModel"
-        xmlns:view ="clr-namespace:ModernDesign.MVVM.View"
         mc:Ignorable="d"
         Height="600" Width="920"
         WindowStyle="None"
@@ -16,9 +14,9 @@
         >
 
     <!--綁定MainViewModel與MainWindowView-->
-    <Window.DataContext>
-        <viewModel:MainViewModel/>
-    </Window.DataContext>
+    <!--<Window.DataContext>
+        <MainViewModel/>
+    </Window.DataContext>-->
 
 
     <Border Background="#272537"

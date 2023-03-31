@@ -12,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using ModernDesign.MVVM.ViewModel;
 
 namespace ModernDesign
 {
@@ -24,7 +23,7 @@ namespace ModernDesign
         public MainWindow()
         {
             InitializeComponent();
-            
+            DataContext = new MainViewModel();
         }
 
         //解決 WindowStyle="None" 不能拖曳的問題
