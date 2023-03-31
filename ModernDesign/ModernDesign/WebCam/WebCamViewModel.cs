@@ -20,9 +20,6 @@ namespace ModernDesign
         public WebCamViewModel()
         {
             Capture = new VideoCapture(0);
-            //MatFrame = Capture.QueryFrame();
-            //Frame = MatFrame.ToBitmapSource();
-            //Capture.ImageGrabbed += Update;
             StartCapture();
         }
 

@@ -1,0 +1,1358 @@
+/ModernDesign/.vs/ModernDesign/FileContentIndex/1e2dcf4f-1261-4818-848d-6178ea61ee62.vsidx
+/ModernDesign/.vs/ModernDesign/FileContentIndex/59509429-fff3-4e45-b0bb-68d01f0e1364.vsidx
+/ModernDesign/.vs/ModernDesign/FileContentIndex/919cf835-6b69-4d82-8c68-03cd6e04d909.vsidx
+/ModernDesign/.vs/ModernDesign/FileContentIndex/ef543531-ef5b-431b-a68e-246d950f71e8.vsidx
+/ModernDesign/.vs/ModernDesign/FileContentIndex/read.lock
+/ModernDesign/.vs/ModernDesign/v17/.suo
+/ModernDesign/.vs/ModernDesign/v17/.wsuo
+/ModernDesign/.vs/slnx.sqlite
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/CommonAssemblyInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Directory.Build.props
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Alphamat/AlphamatInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Aruco/ArucoInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Aruco/DetectorParameters.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Aruco/Dictionary.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Aruco/GridBoard.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Barcode/BarcodeDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/BgSegm/BackgroundSubtractorCNT.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/BgSegm/BackgroundSubtractorGMG.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/BgSegm/BackgroundSubtractorGSOC.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/BgSegm/BackgroundSubtractorLSBP.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/BgSegm/BackgroundSubtractorMOG.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Bioinspired/BioinspiredInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Bioinspired/Retina.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Bioinspired/RetinaFastToneMapping.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/DepthAI/CNNHostPipeline.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/DepthAI/Config.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/DepthAI/DepthAIInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/DepthAI/Device.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/DepthAI/Device.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/DepthAI/FrameMetadata.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/DepthAI/FrameMetadata.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/DepthAI/HostDataPacket.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/DepthAI/HostDataPacket.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/DepthAI/NNetAndDataPackets.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/DepthAI/NNetPacket.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/DnnModern/CaffeConverter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/DnnSuperres/SuperResImpl.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Dpm/DpmDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Dpm/DpmInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Dpm/ObjectDetection.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Emgu.CV.Contrib.projitems
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Emgu.CV.Contrib.shproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Face/BIF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Face/BasicFaceRecognizer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Face/EigenFaceRecognizer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Face/FaceRecognizer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Face/FacemarkAAM.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Face/FacemarkAAMParams.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Face/FacemarkLBF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Face/FacemarkLBFParams.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Face/FisherFaceRecognizer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Face/IFacemark.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Face/LBPHFaceRecognizer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Face/MACE.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Freetype/Freetype2.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Fuzzy/FuzzyInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Hdf/HDF5.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Hfs/HfsInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Hfs/HfsSegment.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/ImgHash/AverageHash.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/ImgHash/BlockMeanHash.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/ImgHash/ColorMomentHash.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/ImgHash/ImgHashBase.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/ImgHash/ImgHashInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/ImgHash/MarrHildrethHash.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/ImgHash/PHash.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/ImgHash/RadialVarianceHash.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/IntensityTransform/IntensityTransformInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/LineDescriptor/BinaryDescriptor.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/LineDescriptor/LSDDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/LineDescriptor/MKeyLine.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/LineDescriptor/VectorOfKeyLine.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Mcc/CChecker.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Mcc/CChecker.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Mcc/CCheckerDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Mcc/CCheckerDraw.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Mcc/ColorCorrectionModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Mcc/ColorCorrectionModel.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Mcc/DetectorParameters.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Mcc/DetectorParameters.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/PhaseUnwrapping/HistogramPhaseUnwrapping.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Plot/Plot2d.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Plot/Plot2d.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Quality/IQualityBase.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Quality/QualityBRISQUE.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Quality/QualityGMSD.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Quality/QualityMSE.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Quality/QualityPSNR.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Quality/QualitySSIM.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Rapid/Rapid.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Reg/IMap.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Reg/IMapper.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Reg/Map.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Reg/MapAffine.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Reg/MapProjec.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Reg/MapShift.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Reg/MapperGradAffine.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Reg/MapperGradEuclid.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Reg/MapperGradProj.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Reg/MapperGradShift.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Reg/MapperGradSimilar.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Reg/MapperPyramid.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Rgbd/Detector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Rgbd/Detector.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Rgbd/Match.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Rgbd/Match.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Rgbd/Modality.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Rgbd/Modality.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Rgbd/Odometry.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Rgbd/RgbdNormals.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Rgbd/VectorOfLinemodMatch.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Saliency/MotionSaliencyBinWangApr2014.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Saliency/ObjectnessBING.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Saliency/Saliency.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Stereo/QuasiDenseStereo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Stereo/QuasiDenseStereo.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/StructuredLight/GrayCodePattern.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/StructuredLight/GrayCodePattern.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/StructuredLight/SinusoidalPattern.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/StructuredLight/StructuredLightPattern.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/SurfaceMatching/ICP.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/SurfaceMatching/PPF3DDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/SurfaceMatching/Pose3D.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/SurfaceMatching/Pose3D.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/SurfaceMatching/VectorOfPose3D.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Text/ERFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Text/MCvERStat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Text/TextDetectorCNN.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Text/VectorOfERStat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Text/VectorOfVectorOfERStat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Tracking/MultiTracker.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Tracking/Tracker.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Tracking/TrackerBoosting.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Tracking/TrackerCSRT.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Tracking/TrackerKCF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Tracking/TrackerMOSSE.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Tracking/TrackerMedianFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/Tracking/TrackerTLD.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/WechatQrcode/WeChatQRCode.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/BEBLID.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/BoostDesc.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/BriefDescriptorExtractor.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/CudaSURF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/DAISY.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/Freak.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/HarrisLaplaceFeatureDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/LATCH.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/LUCID.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/MSDDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/PCTComputeSignature.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/PCTSignatures.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/PCTSignaturesSQFD.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/SURF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/StarDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/TBMR.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/VGG.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XFeatures2D/XFeatures2DInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/DTFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/DisparityWLSFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/DtFilterType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/EdgeBoxes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/EdgeDrawing.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/FastLineDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/GraphSegmentation.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/IDisparityFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/LocalBinarizationMethods.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/RidgeDetectionFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/ScanSegment.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/ScanSegment.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/SelectiveSearchSegmentation.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/StructuredEdgeDetection.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/SuperpixelLSC.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/SuperpixelSEEDS.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/SuperpixelSLIC.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/ThinningTypes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/WMFWeightType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XImgproc/XImgprocInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XObjdetect/WBDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XPhoto/GrayworldWB.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XPhoto/GrayworldWB.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XPhoto/LearningBasedWB.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XPhoto/LearningBasedWB.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XPhoto/SimpleWB.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XPhoto/SimpleWB.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XPhoto/TonemapDurand.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XPhoto/TonemapDurand.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XPhoto/WhiteBalancer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Contrib/XPhoto/XPhotoInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Bgsegm/CudaBackgroundSubtractorMOG.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Bgsegm/CudaBackgroundSubtractorMOG2.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Codec/CudaVideoReader.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Codec/CudaVideoWriter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/CudaConvolution.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/CudaDeviceInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/CudaImage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/CudaInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/CudaLookUpTable.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Emgu.CV.Cuda.projitems
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Emgu.CV.Cuda.shproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Features2d/CudaBruteForceMatcher.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Features2d/CudaFastFeatureDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Features2d/CudaORBDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Features2d/Feature2DAsync.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Filters/CudaBoxFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Filters/CudaBoxMaxFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Filters/CudaBoxMinFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Filters/CudaColumnSumFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Filters/CudaDerivFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Filters/CudaFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Filters/CudaGaussianFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Filters/CudaLaplacianFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Filters/CudaLinearFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Filters/CudaMedianFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Filters/CudaMorphologyFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Filters/CudaRowSumFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Filters/CudaScharrFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Filters/CudaSeparableLinearFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Filters/CudaSobelFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/GpuMat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/GpuMat.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Imgproc/CudaCannyEdgeDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Imgproc/CudaClahe.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Imgproc/CudaCornernessCriteria.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Imgproc/CudaGoodFeaturesToTrackDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Imgproc/CudaHarrisCorner.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Imgproc/CudaHoughCirclesDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Imgproc/CudaHoughLinesDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Imgproc/CudaHoughLinesDetector.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Imgproc/CudaHoughSegmentDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Imgproc/CudaInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Imgproc/CudaMinEigenValCorner.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Imgproc/CudaTemplateMatching.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/InputArray.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Legacy/CudaBackgroundSubtractorFGD.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Legacy/CudaBackgroundSubtractorGMG.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Objdetect/CudaCascadeClassifier.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Objdetect/CudaCascadeClassifier.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Objdetect/CudaHOG.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Objdetect/CudaHOG.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Optflow/CudaBroxOpticalFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Optflow/CudaDensePyrLKOpticalFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Optflow/CudaFarnebackOpticalFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Optflow/CudaOpticalFlowDualTvl1.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Optflow/CudaSparsePyrLKOpticalFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Optflow/ICudaDenseOpticalFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Optflow/ICudaSparseOpticalFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Optflow/INvidiaOpticalFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Optflow/NvidiaOpticalFlow_1_0.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Optflow/NvidiaOpticalFlow_2_0.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Photo/CudaInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Stereo/CudaDisparityBilateralFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Stereo/CudaStereoBM.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Stereo/CudaStereoConstantSpaceBP.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/Stream.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/TargetArchs.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Cuda/VectorOfGpuMat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/BitmapVisualizer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/DenseHistogramVisualizer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/Emgu.CV.DebuggerVisualizers.Console.Test/Emgu.CV.DebuggerVisualizers.Console.Test.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/Emgu.CV.DebuggerVisualizers.Console.Test/Program.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/Emgu.CV.DebuggerVisualizers.Console.Test/Properties/AssemblyInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/Emgu.CV.DebuggerVisualizers.Console.Test/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/Emgu.CV.DebuggerVisualizers.Console.Test/obj/Debug/Emgu.CV.DebuggerVisualizers.Console.Test.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/Emgu.CV.DebuggerVisualizers.Console.Test/obj/Release/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/Emgu.CV.DebuggerVisualizers.Console.Test/obj/Release/Emgu.CV.DebuggerVisualizers.Console.Test.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/Emgu.CV.DebuggerVisualizers.Console.Test/obj/x64/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/Emgu.CV.DebuggerVisualizers.Console.Test/obj/x64/Debug/Emgu.CV.DebuggerVisualizers.Console.Test.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/Emgu.CV.DebuggerVisualizers.Console.Test/obj/x64/Release/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/Emgu.CV.DebuggerVisualizers.Console.Test/obj/x64/Release/Emgu.CV.DebuggerVisualizers.Console.Test.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/Emgu.CV.DebuggerVisualizers.Console.Test/obj/x86/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/Emgu.CV.DebuggerVisualizers.Console.Test/obj/x86/Debug/Emgu.CV.DebuggerVisualizers.Console.Test.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/Emgu.CV.DebuggerVisualizers.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/ImageVisualizer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/MatNDVisualizer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/MatrixVisualizer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/Properties/AssemblyInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/obj/Debug/Emgu.CV.DebuggerVisualizers.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/obj/Release/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/obj/Release/Emgu.CV.DebuggerVisualizers.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/obj/x64/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/obj/x64/Debug/Emgu.CV.DebuggerVisualizers.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/obj/x64/Release/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/obj/x64/Release/Emgu.CV.DebuggerVisualizers.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/obj/x86/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/obj/x86/Debug/Emgu.CV.DebuggerVisualizers.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.DebuggerVisualizers/obj/x86/Release/Emgu.CV.DebuggerVisualizers.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Documentation.chm
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/BuildInfo.NetCore.Console/BuildInfo.NetCore.Console.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/BuildInfo.NetCore.Console/CMakeLists.txt
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/BuildInfo.NetCore.Console/Program.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/BuildInfo.NetCore.Console/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/BuildInfo.NetCore.Console/obj/Debug/net6.0/BuildInfo.NetCore.Console.AssemblyInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/BuildInfo.NetCore.Console/obj/Debug/net6.0/BuildInfo.NetCore.Console.AssemblyInfoInputs.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/BuildInfo.NetCore.Console/obj/Debug/net6.0/BuildInfo.NetCore.Console.GeneratedMSBuildEditorConfig.editorconfig
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/BuildInfo.NetCore.Console/obj/Debug/net6.0/BuildInfo.NetCore.Console.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/BuildInfo.NetCore.Console/obj/Release/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/BuildInfo.NetCore.Console/obj/Release/net6.0/BuildInfo.NetCore.Console.AssemblyInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/BuildInfo.NetCore.Console/obj/Release/net6.0/BuildInfo.NetCore.Console.AssemblyInfoInputs.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/BuildInfo.NetCore.Console/obj/Release/net6.0/BuildInfo.NetCore.Console.GeneratedMSBuildEditorConfig.editorconfig
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/BuildInfo.NetCore.Console/obj/Release/net6.0/BuildInfo.NetCore.Console.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/CMakeLists.txt
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/CameraCapture.Designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/CameraCapture.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/CameraCapture.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/Program.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/Properties/AssemblyInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/app.config
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/obj/Debug/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/obj/Debug/CameraCapture.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/obj/Release/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/obj/Release/CameraCapture.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/obj/x64/Debug/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/obj/x64/Debug/CameraCapture.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/obj/x64/Release/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/obj/x64/Release/CameraCapture.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/obj/x86/Debug/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/obj/x86/Debug/CameraCapture.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/obj/x86/Release/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/CameraCapture/obj/x86/Release/CameraCapture.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/CMakeLists.txt
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/Controllers/FileController.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/DynamicImage.Asp.NetCore.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/Program.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/Properties/launchSettings.json
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/Startup.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/appsettings.Development.json
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/appsettings.json
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/obj/Debug/net6.0/DynamicImage.Asp.NetCore.AssemblyInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/obj/Debug/net6.0/DynamicImage.Asp.NetCore.AssemblyInfoInputs.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/obj/Debug/net6.0/DynamicImage.Asp.NetCore.GeneratedMSBuildEditorConfig.editorconfig
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/obj/Debug/net6.0/DynamicImage.Asp.NetCore.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/obj/Release/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/obj/Release/net6.0/DynamicImage.Asp.NetCore.AssemblyInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/obj/Release/net6.0/DynamicImage.Asp.NetCore.AssemblyInfoInputs.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/obj/Release/net6.0/DynamicImage.Asp.NetCore.GeneratedMSBuildEditorConfig.editorconfig
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/DynamicImage.Asp.NetCore/obj/Release/net6.0/DynamicImage.Asp.NetCore.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/HelloWorld/CMakeLists.txt
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/HelloWorld/HelloWorld.NetCore.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/HelloWorld/Program.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/HelloWorld/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/HelloWorld/obj/Debug/net6.0/HelloWorld.NetCore.AssemblyInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/HelloWorld/obj/Debug/net6.0/HelloWorld.NetCore.AssemblyInfoInputs.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/HelloWorld/obj/Debug/net6.0/HelloWorld.NetCore.GeneratedMSBuildEditorConfig.editorconfig
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/HelloWorld/obj/Debug/net6.0/HelloWorld.NetCore.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/HelloWorld/obj/Release/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/HelloWorld/obj/Release/net6.0/HelloWorld.NetCore.AssemblyInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/HelloWorld/obj/Release/net6.0/HelloWorld.NetCore.AssemblyInfoInputs.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/HelloWorld/obj/Release/net6.0/HelloWorld.NetCore.GeneratedMSBuildEditorConfig.editorconfig
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/HelloWorld/obj/Release/net6.0/HelloWorld.NetCore.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/AboutPage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/App.xaml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/App.xaml.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/AppShell.xaml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/AppShell.xaml.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/ButtonTextImagePage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/CvImageView.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/DrawMatches.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/FeatureMatchingPage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/FreetypePage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/HelloWorldPage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/MainPage.xaml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/MainPage.xaml.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/MauiDemoApp.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/MauiProgram.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/PlanarSubdivisionPage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Platforms/Android/AndroidManifest.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Platforms/Android/MainActivity.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Platforms/Android/MainApplication.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Platforms/Android/Resources/values/colors.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Platforms/MacCatalyst/AppDelegate.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Platforms/MacCatalyst/Info.plist
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Platforms/MacCatalyst/Program.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Platforms/Tizen/Main.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Platforms/Tizen/tizen-manifest.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Platforms/Windows/App.xaml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Platforms/Windows/App.xaml.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Platforms/Windows/Package.appxmanifest
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Platforms/Windows/app.manifest
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Platforms/iOS/AppDelegate.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Platforms/iOS/Info.plist
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Platforms/iOS/Program.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/ProcessAndRenderPage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Properties/launchSettings.json
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/AppIcon/appicon.svg
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/AppIcon/appiconfg.svg
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Fonts/OpenSans-Regular.ttf
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Fonts/OpenSans-Semibold.ttf
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Images/dotnet_bot.svg
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Raw/AboutAssets.txt
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Raw/box.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Raw/box_in_scene.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Raw/cars_license_plate.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Raw/dog416.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Raw/imL.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Raw/imR.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Raw/lena.jpg
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Raw/pedestrian.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Raw/pic3.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Raw/qrcode_barcode.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Raw/stop-sign.jpg
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Raw/test_image.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Splash/splash.svg
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Styles/Colors.xaml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Resources/Styles/Styles.xaml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/ShapeDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/Simple3DReconstruct.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/VideoSurveillanceModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/apple/AvCaptureSessionPage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/apple/CMSampleBufferExtensions.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/MAUI/MauiDemoApp/apple/OutputRecorder.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/CMakeLists.txt
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/OCR.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/OCRForm.Designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/OCRForm.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/Program.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/Properties/AssemblyInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/app.config
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/obj/Debug/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/obj/Debug/OCR.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/obj/Release/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/obj/Release/OCR.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/obj/x64/Debug/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/obj/x64/Debug/OCR.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/obj/x64/Release/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/obj/x64/Release/OCR.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/obj/x86/Debug/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/obj/x86/Debug/OCR.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/obj/x86/Release/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/OCR/obj/x86/Release/OCR.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/Program.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/Properties/AssemblyInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/Stitching.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/StitchingMainForm.Designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/StitchingMainForm.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/app.config
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/obj/Debug/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/obj/Debug/Stitching.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/obj/Release/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/obj/Release/Stitching.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/obj/Stitching.csproj.nuget.dgspec.json
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/obj/project.assets.json
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/obj/x64/Debug/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/obj/x64/Debug/Stitching.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/obj/x64/Release/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/obj/x64/Release/Stitching.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/obj/x86/Debug/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/obj/x86/Debug/Stitching.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/obj/x86/Release/.NETFramework,Version=v4.6.1.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/obj/x86/Release/Stitching.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/stitch1.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/stitch2.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/stitch3.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/Stitching/stitch4.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Interop/App.config
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Interop/MainForm.Designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Interop/MainForm.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Interop/Program.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Interop/Properties/AssemblyInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Interop/Properties/Resources.Designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Interop/Properties/Settings.Designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Interop/TF.Interop.NetCore.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Interop/TensorConvert.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Interop/obj/Debug/net6.0-windows/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Interop/obj/Debug/net6.0-windows/TF.Interop.NetCore.AssemblyInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Interop/obj/Debug/net6.0-windows/TF.Interop.NetCore.AssemblyInfoInputs.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Interop/obj/Debug/net6.0-windows/TF.Interop.NetCore.GeneratedMSBuildEditorConfig.editorconfig
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Interop/obj/Debug/net6.0-windows/TF.Interop.NetCore.csproj.AssemblyReference.cache
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Interop/obj/TF.Interop.NetCore.csproj.nuget.dgspec.json
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Interop/obj/project.assets.json
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Lite.Interop/CMakeLists.txt
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Lite.Interop/MainForm.Designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Lite.Interop/MainForm.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Lite.Interop/Program.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Lite.Interop/TF.Lite.Interop.Net.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Lite.Interop/dog416.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Lite.Interop/obj/TF.Lite.Interop.Net.csproj.nuget.dgspec.json
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/TF.Lite.Interop/obj/project.assets.json
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/WPF.NetCore/App.xaml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/WPF.NetCore/App.xaml.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/WPF.NetCore/AssemblyInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/WPF.NetCore/WPF.NetCore.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/WPF.NetCore/Window1.xaml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/WPF.NetCore/Window1.xaml.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/WPF.NetCore/obj/WPF.NetCore.csproj.nuget.dgspec.json
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/WPF.NetCore/obj/project.assets.json
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/AboutPage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/Android/AndroidCameraManager.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/Android/AndroidCameraPage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/Android/CameraCaptureSessionCallback.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/Android/OnYuvImageAvailableListener.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/Android/RefCountedAutoCloseable.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/Android/YUV420Converter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/App.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/ButtonTextImagePage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/DrawMatches.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/DrawSubdivision.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/Emgu.CV.XamarinForms.projitems
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/Emgu.CV.XamarinForms.shproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/FeatureMatching.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/FeatureMatchingPage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/FreetypePage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/GettingStarted.Xamarin
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/HelloWorldPage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/MotionDetectionModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/PlanarSubdivisionPage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/ProcessAndRenderPage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/ShapeDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/Simple3DReconstruct.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/VideoSurveillanceModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/box.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/box_in_scene.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/cars_license_plate.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/dog416.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/iOS/AvCaptureSessionPage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/iOS/CMSampleBufferExtensions.ios.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/iOS/CMSampleBufferExtensions.macos.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/iOS/OutputRecorder.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/imL.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/imR.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/lena.jpg
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/pedestrian.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/pic3.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/qrcode_barcode.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/stop-sign.jpg
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/Core/test_image.png
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/WPF/App.xaml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/WPF/App.xaml.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/WPF/MainWindow.xaml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/WPF/MainWindow.xaml.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Example/XamarinForms/WPF/XamarinForms.WPF.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/CascadeFaceAndEyeDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/CombinedModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/DepthAI/MobilenetSsd.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/Dnn/BarcodeDetectorModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/Dnn/DetectedObject.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/Dnn/FaceAndLandmarkDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/Dnn/FaceDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/Dnn/FaceDetectorYNModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/Dnn/MaskRcnn.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/Dnn/MaskedObject.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/Dnn/SceneTextDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/Dnn/VehicleLicensePlateDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/Dnn/WeChatQRCodeDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/Dnn/Yolo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/Emgu.CV.Models.IOS/Emgu.CV.Models.IOS.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/Emgu.CV.Models.NetStandard/Emgu.CV.Models.NetStandard.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/Emgu.CV.Models.Shared.projitems
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/Emgu.CV.Models.Shared.shproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/FacemarkDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/FreetypeNotoSansCJK.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/IProcessAndRenderModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/PedestrianDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Models/TesseractModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.NativeImage/BitmapSourceExtension.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.NativeImage/CGImageExtension.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.NativeImage/NSImageExtension.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.NativeImage/UIImageExtension.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.NativeImage/WinrtInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.NativeImage/WriteableBitmapExtension.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.OCR/Emgu.CV.OCR.projitems
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.OCR/Emgu.CV.OCR.shproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.OCR/ITessResultRenderer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.OCR/LocaleGuard.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.OCR/OcrEngineMode.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.OCR/OcrInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.OCR/PageIterator.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.OCR/PageSegMode.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.OCR/Pix.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.OCR/TessResultRenderer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.OCR/Tesseract.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.OCR/TesseractResult.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.OCR/VectorOfTesseractResult.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/5/Emgu.CV.Platform.Net5.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/Core/Emgu.CV.Platform.NetCore.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/Emgu.CV.Platform.Net.projitems
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/Emgu.CV.Platform.Net.shproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/Framework/Emgu.CV.Platform.NetFramework.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/Framework/Properties/AssemblyInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/HistogramBox.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/HistogramViewer.Designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/HistogramViewer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/HistogramViewer.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/HistogramViewer.zh-CN.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ImageBox.Designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ImageBox.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ImageBox.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ImageProperty.Designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ImageProperty.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ImageProperty.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ImageProperty.zh-CN.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ImagePropertyDialog.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ImagePropertyDialog.designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ImagePropertyDialog.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ImagePropertyDialog.zh-CN.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ImageViewer.Designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ImageViewer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ImageViewer.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ImageViewer.zh-CN.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/MatrixBox.Designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/MatrixBox.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/MatrixBox.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/MatrixBox.zh-CN.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/MatrixViewer.Designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/MatrixViewer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/MatrixViewer.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/MatrixViewer.zh-CN.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/Operation.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/OperationsView.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/OperationsView.designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/OperationsView.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/PanAndZoomPictureBox.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/PanAndZoomPictureBox.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ParameterInputDialog.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ParameterInputDialog.designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ParameterInputDialog.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/ParameterInputDialog.zh-CN.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/Properties/StringTable.Designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/Properties/StringTable.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/Properties/StringTable.zh-CN.Designer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/DotNet/Properties/StringTable.zh-CN.resx
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/Emgu.CV.Bitmap/BitmapExtension.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/Emgu.CV.Bitmap/Emgu.CV.Bitmap.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/Emgu.CV.Wpf/Emgu.CV.Wpf.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/NetStandard/Emgu.CV.Platform.NetStandard.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Platform/NetStandard_iOS/Emgu.CV.Platform.NetStandard.IOS.csproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Runtime/Debian/Emgu.CV.Runtime.Debian.projitems
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Runtime/Debian/Emgu.CV.Runtime.Debian.shproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Runtime/Mac/Emgu.CV.Runtime.Mac.projitems
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Runtime/Mac/Emgu.CV.Runtime.Mac.shproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Runtime/UWP/Emgu.CV.Runtime.UWP.projitems
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Runtime/UWP/Emgu.CV.Runtime.UWP.shproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Runtime/Ubuntu/Emgu.CV.Runtime.Ubuntu.projitems
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Runtime/Ubuntu/Emgu.CV.Runtime.Ubuntu.shproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Runtime/Windows/Emgu.CV.Runtime.Windows.projitems
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.Runtime/Windows/Emgu.CV.Runtime.Windows.shproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV.snk
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Calib3d/Calib3dInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Calib3d/Fisheye.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Calib3d/IStereoMatcher.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Calib3d/StereoBM.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Calib3d/StereoSGBM.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Color/Bgr.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Color/Bgra.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Color/ColorInfoAttribute.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Color/DisplayColorAttribute.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Color/Gray.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Color/Hls.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Color/Hsv.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Color/IColor.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Color/Lab.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Color/Luv.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Color/Rgb.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Color/Rgb565.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Color/Rgba.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Color/Xyz.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Color/Ycc.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/Affine3d.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/CvArray.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/CvString.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/DirectX.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/FileNode.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/FileNode.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/FileNodeIterator.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/FileStorage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/IAlgorithm.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/IFileReaderMat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/IFileWriterMat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/IInputArray.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/IInputOutputArray.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/IOutputArray.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/Image.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/InputArray.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/InputArray.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/InputOutputArray.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/Map.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/Mat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/Mat.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/MatDataAllocator.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/MatND.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/Matrix.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/Moments.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/Moments.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/NativeMatFileIO.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/OutputArray.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/OutputArray.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/RNG.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/ScalarArray.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/SparseMatrix.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/TimedImage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/UMat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Core/UMat.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/Backend.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/BackendTargetPair.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/ClassificationModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/DetectionModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/DetectionModel.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/DnnInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/KeypointsModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/Layer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/Layer.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/Model.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/Net.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/Net.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/SegmentationModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/Target.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/TextDetectionModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/TextDetectionModel_DB.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/TextDetectionModel_DB.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/TextDetectionModel_EAST.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/TextDetectionModel_EAST.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/TextRecognitionModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Dnn/TextRecognitionModel.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Emgu.CV.projitems
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Emgu.CV.shproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/AKAZE.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/AgastFeatureDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/BFMatcher.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/BOWImgDescriptorExtractor.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/BOWKMeansTrainer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/Brisk.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/DescriptorMatcher.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/FastFeatureDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/Feature2D.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/Features2DInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/Features2DToolbox.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/FlannBasedMatcher.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/GFTTDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/KAZE.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/MSER.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/MSER.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/ORB.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/SIFT.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/SimpleBlobDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Features2D/SimpleBlobDetectorParams.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Flann/CenterInitType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Flann/FlannInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Flann/IIndexParams.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Flann/Index.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Flann/Index3D.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Flann/IndexParams.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Gapi/GComputation.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Gapi/GMat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Gapi/GScalar.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Gapi/GapiInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Gapi/StereoOutputFormat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Geodetic/GeodeticCoordinate.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Imgproc/ConvolutionKernelF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Imgproc/DenseHistogram.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Imgproc/IntelligentScissorsMB.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Imgproc/IntelligentScissorsMB.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Imgproc/LineIterator.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Imgproc/LineIterator.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Imgproc/Subdiv2D.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Imgproc/VoroniFacet.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/ANN_MLP.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/ANN_MLP.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/AnnMlpTrainingFlag.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/Boost.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/Boost.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/BoostSplitCreiteria.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/BoostType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/DTrees.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/DTrees.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/DataLayoutType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/EM.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/EM.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/GBTrees.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/KNearest.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/KNearest.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/LogisticRegression.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/LogisticRegression.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/MlInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/NormalBayesClassifier.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/RTrees.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/RTrees.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/SVM.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/SVM.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/SVMSGD.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/SVMSGD.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/StatModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/TrainData.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ml/VarType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Objdetect/CascadeClassifier.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Objdetect/FaceDetectorYN.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Objdetect/FaceDetectorYN.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Objdetect/FaceRecognizerSF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Objdetect/HOGDescriptor.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Objdetect/QRCodeDetector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Objdetect/QRCodeDetector.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ocl/Context.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ocl/Device.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ocl/Device.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ocl/Image2D.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ocl/Kernel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ocl/Kernel.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ocl/KernelArg.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ocl/PlatformInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ocl/PlatformInfo.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ocl/Program.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ocl/ProgramSource.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Ocl/Queue.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Optflow/DenseRLOFOpticalFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Optflow/DualTVL1OpticalFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Optflow/DualTVL1OpticalFlow.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Optflow/MotionHistory.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Optflow/OptFlowDeepFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Optflow/OpticalFlowPCAFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Optflow/RLOFOpticalFlowParameter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Optflow/RLOFOpticalFlowParameter.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Optflow/SparseRLOFOpticalFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/AccessType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/AdaptiveThresholdType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/BackOrFront.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/BorderType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/CalibCbType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/CalibCgType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/CalibType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/CapProp.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/ChainApproxMethod.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/CheckType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/CloningMethod.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/CmpType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/ColorConversion.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/ColorMapType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/ConnectedComponentsAlgorithmsTypes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/ConnectedComponentsTypes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/Connectivity.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/ContoursMatchType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/CovarMethod.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/DctType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/DecompMethod.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/DepthType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/DistLabelType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/DistType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/DxtType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/EdgePreservingFilterFlag.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/EigobjType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/ElementShape.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/ErrorCodes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/FlipType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/FloodFillType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/FmType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/FontFace.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/GemmType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/General.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/GrabcutInitType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/HaarDetectionType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/HandEyeCalibrationMethod.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/HistogramCompMethod.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/HoughModes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/ImreadModes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/ImwriteFlags.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/InpaintType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/Inter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/IplDepth.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/KMeansInitType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/LKFlowFlag.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/LineType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/LogLevel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/MarkerType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/MorphOp.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/MotionType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/MulSpectrumsType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/NormType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/OpticalflowFarnebackFlag.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/Orientation.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/PcaType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/RectIntersectType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/ReduceDimension.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/ReduceType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/RetrType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/RobustEstimationAlgorithm.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/RotateFlags.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/SeqConst.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/SeqEltype.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/SeqFlag.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/SeqKind.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/SeqType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/SmoothType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/SoftNMSMethod.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/SolveLPResult.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/SolvePnpMethod.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/SortFlags.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/StereoBmPrefilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/StereoRectifyType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/StorageOp.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/Subdiv2DPointLocationType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/SvdFlag.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/TemplateMatchingType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/TermCritType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/ThresholdType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/VideoAccelerationType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/Warp.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/WindowFlags.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvEnum/WindowPropertyFlags.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvInvokeCalib3d.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvInvokeCore.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvInvokeCvextern.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvInvokeEntryPoints.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvInvokeFeatures2d.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvInvokeHighGUI.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvInvokeImgcodecs.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvInvokeImgproc.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvInvokeObjdetect.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvInvokeOptim.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvInvokePhoto.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvInvokeVideo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/CircleF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/ColorPoint.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/Cross2DF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/Cuboid.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/CvStructSizes.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/Ellipse.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/IConvexPolygon.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/IConvexPolygonF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/MCvAvgComp.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/MCvMat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/MCvMatND.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/MCvObjectDetection.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/MCvPoint2D64f.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/MCvPoint3D32f.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/MCvPoint3D64f.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/MCvScalar.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/MCvSlice.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/MCvTermCriteria.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/MDMatch.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/MIplImage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/MKeyPoint.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/Quaternions.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/Range.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/RangeF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/RotatedRect.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/RotationMatrix2D.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/RotationVector3D.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/Triangle2DF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/CvType/Triangle3DF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/System.Drawing/Point.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/System.Drawing/PointF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/System.Drawing/Rectangle.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/System.Drawing/RectangleF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/System.Drawing/Size.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PInvoke/System.Drawing/SizeF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Photo/AlignExposures.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Photo/CalibrateCRF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Photo/MergeExposures.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Photo/Tonemap.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Photo/Tonemap.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Photo/TonemapDrago.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Photo/TonemapDrago.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Photo/TonemapMantiuk.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Photo/TonemapMantiuk.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Photo/TonemapReinhard.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Photo/TonemapReinhard.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PointAndLine/LineSegment2D.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PointAndLine/LineSegment2DF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PointAndLine/LineSegment3DF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/PointAndLine/PointCollection.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/README.txt
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Reflection/ExposableMethodAttribute.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Reflection/GenericParameter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Reflection/ReflectColorType.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Reflection/ReflectIImage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Shape/HistogramCostExtractor.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Shape/ShapeContextDistanceExtractor.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Shape/ShapeDistanceExtractor.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Shape/ShapeTransformer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Stitching/Blender.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Stitching/BundlerAdjuster.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Stitching/Estimator.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Stitching/ExposureCompensator.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Stitching/FeatherBlender.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Stitching/FeaturesMatcher.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Stitching/MultiBandBlender.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Stitching/RotationWarper.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Stitching/SeamFinder.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Stitching/Stitcher.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Stitching/Stitcher.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Stitching/WarperCreator.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Superres/FrameSource.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Superres/SuperResolution.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Tiff/TiffWriter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Tiff/TileTiffWriter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/BinaryFileStorage.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/CvException.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/CvInvokeUtil.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/CvToolbox.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/DataLogger.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/SharedPtrObject.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/StructSize.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/TbbTaskScheduler.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/UnmanagedVector.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfByte.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfColorPoint.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfCvString.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfCvStringExtra.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfDMatch.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfDouble.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfFloat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfGMat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfInt.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfIntPtr.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfKeyPoint.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfKeyPointExtra.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfMat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfMatExtra.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfOclPlatformInfo.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfPoint.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfPoint3D32F.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfPointF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfRect.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfRotatedRect.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfSize.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfTriangle2DF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfUMat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfVectorOfByte.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfVectorOfDMatch.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfVectorOfInt.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfVectorOfMat.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfVectorOfPoint.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfVectorOfPoint3D32F.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfVectorOfPointF.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfVectorOfRect.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/VectorOfVideoCapture.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Util/ZlibCompression.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/BackgroundSubtractor.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/BackgroundSubtractorKNN.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/BackgroundSubtractorKNN.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/BackgroundSubtractorMOG2.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/BackgroundSubtractorMOG2.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/DISOpticalFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/DISOpticalFlow.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/DenseOpticalFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/FarnebackOpticalFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/KalmanFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/KalmanFilter.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/SparseOpticalFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/SparsePyrLKOpticalFlow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/Tracker.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/TrackerDaSiamRPN.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/TrackerDaSiamRPN.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/TrackerGOTURN.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/TrackerMIL.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/VariationalRefinement.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Video/VariationalRefinement.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Videoio/KinectCapture.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Videoio/VideoCapture.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Videoio/VideoCapture.g.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Videoio/VideoWriter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Videostab/CaptureFrameSource.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Videostab/FrameSource.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Videostab/GaussianMotionFilter.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Videostab/MotionModel.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Videostab/OnePassStabilizer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Videostab/TwoPassStabilizer.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Videostab/VideoStabInvoke.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Viz/IWidget.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Viz/Viz3d.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Viz/WArrow.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Viz/WCircle.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Viz/WCloud.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Viz/WCone.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Viz/WCoordinateSystem.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Viz/WCube.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Viz/WCylinder.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.CV/Viz/WText.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.Util/DisposableObject.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.Util/DownloadableFile.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.Util/Emgu.Util.projitems
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.Util/Emgu.Util.shproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.Util/EventArgs.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.Util/ExceptionHandler.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.Util/FileDownloadManager.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.Util/ICodeGenerable.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.Util/IInterpolatable.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.Util/PinnedArray.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.Util/Platform.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.Util/Toolbox.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.Util/TypeEnum.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Emgu.Util/UnmanagedObject.cs
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/LICENSE
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/README.txt
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Solution/Windows.Desktop/Emgu.CV.DebuggerVisualizers.sln
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Solution/Windows.Desktop/Emgu.CV.Example.sln
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Solution/Windows.Desktop/Emgu.CV.sln
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/Uninstall.exe
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/components.config
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_eye.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_eye_tree_eyeglasses.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_frontalcatface.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_frontalcatface_extended.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_frontalface_alt.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_frontalface_alt2.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_frontalface_alt_tree.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_frontalface_default.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_fullbody.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_lefteye_2splits.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_licence_plate_rus_16stages.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_lowerbody.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_profileface.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_righteye_2splits.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_russian_plate_number.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_smile.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/haarcascades/haarcascade_upperbody.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/lbpcascades/lbpcascade_frontalcatface.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/lbpcascades/lbpcascade_frontalface.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/lbpcascades/lbpcascade_frontalface_improved.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/lbpcascades/lbpcascade_profileface.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/lbpcascades/lbpcascade_silverware.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/quality/brisque_model_live.yml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/etc/quality/brisque_range_live.yml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/lib/opencv.license.txt
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/lib/tesseract-ocr.license.txt
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/Emgu.CV.Bitmap.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/Emgu.CV.Bitmap.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/Emgu.CV.DebuggerVisualizers.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/Emgu.CV.Models.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/Emgu.CV.Models.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/Emgu.CV.Platform.NetCore.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/Emgu.CV.Platform.NetCore.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/Emgu.CV.Platform.NetFramework.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/Emgu.CV.Platform.NetFramework.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/Emgu.CV.Wpf.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/Emgu.CV.Wpf.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/Emgu.CV.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/Emgu.CV.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/System.Runtime.InteropServices.RuntimeInformation.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/iOS/Emgu.CV.Models.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/iOS/Emgu.CV.Models.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/iOS/Emgu.CV.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/iOS/Emgu.CV.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-arm64/native/concrt140.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-arm64/native/cvextern.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-arm64/native/msvcp140.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-arm64/native/msvcp140_1.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-arm64/native/msvcp140_2.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-arm64/native/msvcp140_atomic_wait.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-arm64/native/msvcp140_codecvt_ids.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-arm64/native/opencv_videoio_ffmpeg460_64.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-arm64/native/vcruntime140.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-arm64/native/vcruntime140_1.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-arm64/native/version_string.inc
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x64/native/concrt140.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x64/native/cvextern.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x64/native/cvextern.lib
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x64/native/msvcp140.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x64/native/msvcp140_1.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x64/native/msvcp140_2.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x64/native/msvcp140_atomic_wait.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x64/native/msvcp140_codecvt_ids.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x64/native/opencv_videoio_ffmpeg460_64.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x64/native/vcruntime140.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x64/native/vcruntime140_1.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x64/native/version_string.inc
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x86/native/concrt140.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x86/native/cvextern.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x86/native/msvcp140.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x86/native/msvcp140_1.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x86/native/msvcp140_2.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x86/native/msvcp140_atomic_wait.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x86/native/msvcp140_codecvt_ids.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x86/native/opencv_videoio_ffmpeg460.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x86/native/vcruntime140.dll
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/libs/runtimes/win-x86/native/version_string.inc
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/miscellaneous/Emgu.CV.html.shfbproj
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/miscellaneous/vswhere.exe
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/nuget.config
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/opencv/LICENSE
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/opencv/data/haarcascades/haarcascade_eye.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/opencv/data/haarcascades/haarcascade_frontalface_default.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/opencv_contrib/modules/text/samples/trained_classifierNM1.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/opencv_contrib/modules/text/samples/trained_classifierNM2.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/opencv_contrib/modules/text/samples/trained_classifier_erGrouping.xml
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/opencv_extra/testdata/dnn/mask_rcnn_inception_v2_coco_2018_01_28.pbtxt
+/ModernDesign/Emgu/emgucv-windesktop 4.6.0.5131/x64/vc17/bin/opencv_videoio_ffmpeg460_64.dll
+/ModernDesign/ModernDesign/bin/Debug/Emgu.CV.Bitmap.dll
+/ModernDesign/ModernDesign/bin/Debug/Emgu.CV.Bitmap.xml
+/ModernDesign/ModernDesign/bin/Debug/Emgu.CV.Models.dll
+/ModernDesign/ModernDesign/bin/Debug/Emgu.CV.Models.xml
+/ModernDesign/ModernDesign/bin/Debug/Emgu.CV.Platform.NetCore.dll
+/ModernDesign/ModernDesign/bin/Debug/Emgu.CV.Platform.NetCore.xml
+/ModernDesign/ModernDesign/bin/Debug/Emgu.CV.Platform.NetFramework.dll
+/ModernDesign/ModernDesign/bin/Debug/Emgu.CV.Platform.NetFramework.xml
+/ModernDesign/ModernDesign/bin/Debug/Emgu.CV.Wpf.dll
+/ModernDesign/ModernDesign/bin/Debug/Emgu.CV.Wpf.xml
+/ModernDesign/ModernDesign/bin/Debug/Emgu.CV.dll
+/ModernDesign/ModernDesign/bin/Debug/Emgu.CV.xml
+/ModernDesign/ModernDesign/bin/Debug/ModernDesign.exe
+/ModernDesign/ModernDesign/bin/Debug/ModernDesign.exe.config
+/ModernDesign/ModernDesign/bin/Debug/ModernDesign.pdb
+/ModernDesign/ModernDesign/bin/Debug/OpenTK.GLControl.dll
+/ModernDesign/ModernDesign/bin/Debug/OpenTK.GLControl.xml
+/ModernDesign/ModernDesign/bin/Debug/OpenTK.dll
+/ModernDesign/ModernDesign/bin/Debug/OpenTK.xml
+/ModernDesign/ModernDesign/bin/Debug/System.Drawing.Common.dll
+/ModernDesign/ModernDesign/bin/Debug/System.Drawing.Common.xml
+/ModernDesign/ModernDesign/bin/Debug/ZedGraph.dll
+/ModernDesign/ModernDesign/bin/Debug/ZedGraph.xml
+/ModernDesign/ModernDesign/bin/Debug/concrt140.dll
+/ModernDesign/ModernDesign/bin/Debug/cvextern.dll
+/ModernDesign/ModernDesign/bin/Debug/cvextern.lib
+/ModernDesign/ModernDesign/bin/Debug/de/ZedGraph.resources.dll
+/ModernDesign/ModernDesign/bin/Debug/es/ZedGraph.resources.dll
+/ModernDesign/ModernDesign/bin/Debug/fr/ZedGraph.resources.dll
+/ModernDesign/ModernDesign/bin/Debug/hu/ZedGraph.resources.dll
+/ModernDesign/ModernDesign/bin/Debug/it/ZedGraph.resources.dll
+/ModernDesign/ModernDesign/bin/Debug/ja/ZedGraph.resources.dll
+/ModernDesign/ModernDesign/bin/Debug/msvcp140.dll
+/ModernDesign/ModernDesign/bin/Debug/msvcp140_1.dll
+/ModernDesign/ModernDesign/bin/Debug/msvcp140_2.dll
+/ModernDesign/ModernDesign/bin/Debug/msvcp140_atomic_wait.dll
+/ModernDesign/ModernDesign/bin/Debug/msvcp140_codecvt_ids.dll
+/ModernDesign/ModernDesign/bin/Debug/opencv_videoio_ffmpeg460.dll
+/ModernDesign/ModernDesign/bin/Debug/opencv_videoio_ffmpeg460_64.dll
+/ModernDesign/ModernDesign/bin/Debug/pt/ZedGraph.resources.dll
+/ModernDesign/ModernDesign/bin/Debug/ru/ZedGraph.resources.dll
+/ModernDesign/ModernDesign/bin/Debug/sk/ZedGraph.resources.dll
+/ModernDesign/ModernDesign/bin/Debug/sv/ZedGraph.resources.dll
+/ModernDesign/ModernDesign/bin/Debug/tr/ZedGraph.resources.dll
+/ModernDesign/ModernDesign/bin/Debug/vcruntime140.dll
+/ModernDesign/ModernDesign/bin/Debug/vcruntime140_1.dll
+/ModernDesign/ModernDesign/bin/Debug/version_string.inc
+/ModernDesign/ModernDesign/bin/Debug/x64/cvextern.dll
+/ModernDesign/ModernDesign/bin/Debug/x64/opencv_ffmpeg310_64.dll
+/ModernDesign/ModernDesign/bin/Debug/x86/cvextern.dll
+/ModernDesign/ModernDesign/bin/Debug/x86/opencv_ffmpeg310.dll
+/ModernDesign/ModernDesign/bin/Debug/zh-cn/ZedGraph.resources.dll
+/ModernDesign/ModernDesign/bin/Debug/zh-tw/ZedGraph.resources.dll
+/ModernDesign/ModernDesign/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+/ModernDesign/ModernDesign/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+/ModernDesign/ModernDesign/obj/Debug/App.baml
+/ModernDesign/ModernDesign/obj/Debug/App.g.cs
+/ModernDesign/ModernDesign/obj/Debug/App.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+/ModernDesign/ModernDesign/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/ModernDesign/ModernDesign/obj/Debug/Discovery/DiscoveryView.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/DiscoveryView.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/GeneratedInternalTypeHelper.g.cs
+/ModernDesign/ModernDesign/obj/Debug/GeneratedInternalTypeHelper.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/Home/HomeView.baml
+/ModernDesign/ModernDesign/obj/Debug/Home/HomeView.g.cs
+/ModernDesign/ModernDesign/obj/Debug/Home/HomeView.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/HomeView.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/MVVM/DiscoveryView.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/MVVM/HomeView.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/MVVM/Sudoku/SudokuCell.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/MVVM/Sudoku/SudokuView.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/MVVM/View/DiscoveryView.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/MVVM/View/HomeView.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/MVVM/View/Sudoku/SudokuCell.baml
+/ModernDesign/ModernDesign/obj/Debug/MVVM/View/Sudoku/SudokuCell.g.cs
+/ModernDesign/ModernDesign/obj/Debug/MVVM/View/Sudoku/SudokuCell.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/MVVM/View/Sudoku/SudokuView.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/Main/MainWindow.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/MainWindow.baml
+/ModernDesign/ModernDesign/obj/Debug/MainWindow.g.cs
+/ModernDesign/ModernDesign/obj/Debug/MainWindow.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/ModernDesign.Properties.Resources.resources
+/ModernDesign/ModernDesign/obj/Debug/ModernDesign.csproj.AssemblyReference.cache
+/ModernDesign/ModernDesign/obj/Debug/ModernDesign.csproj.CopyComplete
+/ModernDesign/ModernDesign/obj/Debug/ModernDesign.csproj.CoreCompileInputs.cache
+/ModernDesign/ModernDesign/obj/Debug/ModernDesign.csproj.FileListAbsolute.txt
+/ModernDesign/ModernDesign/obj/Debug/ModernDesign.csproj.GenerateResource.cache
+/ModernDesign/ModernDesign/obj/Debug/ModernDesign.csproj.SuggestedBindingRedirects.cache
+/ModernDesign/ModernDesign/obj/Debug/ModernDesign.exe
+/ModernDesign/ModernDesign/obj/Debug/ModernDesign.g.resources
+/ModernDesign/ModernDesign/obj/Debug/ModernDesign.pdb
+/ModernDesign/ModernDesign/obj/Debug/ModernDesign_MarkupCompile.cache
+/ModernDesign/ModernDesign/obj/Debug/ModernDesign_MarkupCompile.i.lref
+/ModernDesign/ModernDesign/obj/Debug/ModernDesign_MarkupCompile.lref
+/ModernDesign/ModernDesign/obj/Debug/NewFolder1/SudokuCell.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/NewFolder1/SudokuView.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/Sudoku/SudokuCell.baml
+/ModernDesign/ModernDesign/obj/Debug/Sudoku/SudokuCell.g.cs
+/ModernDesign/ModernDesign/obj/Debug/Sudoku/SudokuCell.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/Sudoku/SudokuView.baml
+/ModernDesign/ModernDesign/obj/Debug/Sudoku/SudokuView.g.cs
+/ModernDesign/ModernDesign/obj/Debug/Sudoku/SudokuView.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll
+/ModernDesign/ModernDesign/obj/Debug/Theme/BlockButtonTheme.baml
+/ModernDesign/ModernDesign/obj/Debug/Theme/BlockButtonTheme.g.cs
+/ModernDesign/ModernDesign/obj/Debug/Theme/BlockButtonTheme.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/Theme/MenuButtonTheme.baml
+/ModernDesign/ModernDesign/obj/Debug/Theme/TextBoxTheme.baml
+/ModernDesign/ModernDesign/obj/Debug/UserControl1.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/WebCam/DiscoveryView.g.i.cs
+/ModernDesign/ModernDesign/obj/Debug/WebCam/WebCamView.baml
+/ModernDesign/ModernDesign/obj/Debug/WebCam/WebCamView.g.cs
+/ModernDesign/ModernDesign/obj/Debug/WebCam/WebCamView.g.i.cs
+/ModernDesign/ModernDesign/obj/Release/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+/ModernDesign/ModernDesign/obj/Release/App.baml
+/ModernDesign/ModernDesign/obj/Release/App.g.cs
+/ModernDesign/ModernDesign/obj/Release/App.g.i.cs
+/ModernDesign/ModernDesign/obj/Release/GeneratedInternalTypeHelper.g.cs
+/ModernDesign/ModernDesign/obj/Release/GeneratedInternalTypeHelper.g.i.cs
+/ModernDesign/ModernDesign/obj/Release/MVVM/View/DiscoveryView.baml
+/ModernDesign/ModernDesign/obj/Release/MVVM/View/DiscoveryView.g.cs
+/ModernDesign/ModernDesign/obj/Release/MVVM/View/DiscoveryView.g.i.cs
+/ModernDesign/ModernDesign/obj/Release/MVVM/View/HomeView.baml
+/ModernDesign/ModernDesign/obj/Release/MVVM/View/HomeView.g.cs
+/ModernDesign/ModernDesign/obj/Release/MVVM/View/HomeView.g.i.cs
+/ModernDesign/ModernDesign/obj/Release/MVVM/View/Sudoku/SudokuCell.baml
+/ModernDesign/ModernDesign/obj/Release/MVVM/View/Sudoku/SudokuCell.g.cs
+/ModernDesign/ModernDesign/obj/Release/MVVM/View/Sudoku/SudokuCell.g.i.cs
+/ModernDesign/ModernDesign/obj/Release/MVVM/View/Sudoku/SudokuView.baml
+/ModernDesign/ModernDesign/obj/Release/MVVM/View/Sudoku/SudokuView.g.cs
+/ModernDesign/ModernDesign/obj/Release/MVVM/View/Sudoku/SudokuView.g.i.cs
+/ModernDesign/ModernDesign/obj/Release/MainWindow.baml
+/ModernDesign/ModernDesign/obj/Release/MainWindow.g.cs
+/ModernDesign/ModernDesign/obj/Release/MainWindow.g.i.cs
+/ModernDesign/ModernDesign/obj/Release/ModernDesign.Properties.Resources.resources
+/ModernDesign/ModernDesign/obj/Release/ModernDesign.csproj.AssemblyReference.cache
+/ModernDesign/ModernDesign/obj/Release/ModernDesign.csproj.CopyComplete
+/ModernDesign/ModernDesign/obj/Release/ModernDesign.csproj.CoreCompileInputs.cache
+/ModernDesign/ModernDesign/obj/Release/ModernDesign.csproj.FileListAbsolute.txt
+/ModernDesign/ModernDesign/obj/Release/ModernDesign.csproj.GenerateResource.cache
+/ModernDesign/ModernDesign/obj/Release/ModernDesign.csproj.SuggestedBindingRedirects.cache
+/ModernDesign/ModernDesign/obj/Release/ModernDesign.exe
+/ModernDesign/ModernDesign/obj/Release/ModernDesign.g.resources
+/ModernDesign/ModernDesign/obj/Release/ModernDesign.pdb
+/ModernDesign/ModernDesign/obj/Release/ModernDesign_MarkupCompile.cache
+/ModernDesign/ModernDesign/obj/Release/ModernDesign_MarkupCompile.lref
+/ModernDesign/ModernDesign/obj/Release/TempPE/Properties.Resources.Designer.cs.dll
+/ModernDesign/ModernDesign/obj/Release/Theme/BlockButtonTheme.baml
+/ModernDesign/ModernDesign/obj/Release/Theme/BlockButtonTheme.g.cs
+/ModernDesign/ModernDesign/obj/Release/Theme/BlockButtonTheme.g.i.cs
+/ModernDesign/ModernDesign/obj/Release/Theme/MenuButtonTheme.baml
+/ModernDesign/ModernDesign/obj/Release/Theme/TextBoxTheme.baml
+/ModernDesign/packages/System.Drawing.Common.7.0.0/.signature.p7s
+/ModernDesign/packages/System.Drawing.Common.7.0.0/Icon.png
+/ModernDesign/packages/System.Drawing.Common.7.0.0/LICENSE.TXT
+/ModernDesign/packages/System.Drawing.Common.7.0.0/System.Drawing.Common.7.0.0.nupkg
+/ModernDesign/packages/System.Drawing.Common.7.0.0/THIRD-PARTY-NOTICES.TXT
+/ModernDesign/packages/System.Drawing.Common.7.0.0/buildTransitive/net461/System.Drawing.Common.targets
+/ModernDesign/packages/System.Drawing.Common.7.0.0/buildTransitive/net462/_._
+/ModernDesign/packages/System.Drawing.Common.7.0.0/buildTransitive/net6.0/_._
+/ModernDesign/packages/System.Drawing.Common.7.0.0/buildTransitive/netcoreapp2.0/System.Drawing.Common.targets
+/ModernDesign/packages/System.Drawing.Common.7.0.0/lib/MonoAndroid10/_._
+/ModernDesign/packages/System.Drawing.Common.7.0.0/lib/MonoTouch10/_._
+/ModernDesign/packages/System.Drawing.Common.7.0.0/lib/net462/System.Drawing.Common.dll
+/ModernDesign/packages/System.Drawing.Common.7.0.0/lib/net462/System.Drawing.Common.xml
+/ModernDesign/packages/System.Drawing.Common.7.0.0/lib/net6.0/System.Drawing.Common.dll
+/ModernDesign/packages/System.Drawing.Common.7.0.0/lib/net6.0/System.Drawing.Common.xml
+/ModernDesign/packages/System.Drawing.Common.7.0.0/lib/net7.0/System.Drawing.Common.dll
+/ModernDesign/packages/System.Drawing.Common.7.0.0/lib/net7.0/System.Drawing.Common.xml
+/ModernDesign/packages/System.Drawing.Common.7.0.0/lib/netstandard2.0/System.Drawing.Common.dll
+/ModernDesign/packages/System.Drawing.Common.7.0.0/lib/netstandard2.0/System.Drawing.Common.xml
+/ModernDesign/packages/System.Drawing.Common.7.0.0/lib/xamarinios10/_._
+/ModernDesign/packages/System.Drawing.Common.7.0.0/lib/xamarinmac20/_._
+/ModernDesign/packages/System.Drawing.Common.7.0.0/lib/xamarintvos10/_._
+/ModernDesign/packages/System.Drawing.Common.7.0.0/lib/xamarinwatchos10/_._
+/ModernDesign/packages/System.Drawing.Common.7.0.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/ModernDesign/packages/System.Drawing.Common.7.0.0/runtimes/win/lib/net6.0/System.Drawing.Common.xml
+/ModernDesign/packages/System.Drawing.Common.7.0.0/runtimes/win/lib/net7.0/System.Drawing.Common.dll
+/ModernDesign/packages/System.Drawing.Common.7.0.0/runtimes/win/lib/net7.0/System.Drawing.Common.xml
+/ModernDesign/packages/System.Drawing.Common.7.0.0/useSharedDesignerContext.txt
