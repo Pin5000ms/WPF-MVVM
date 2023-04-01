@@ -191,4 +191,7 @@
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>xcopy /s /e /y "$(SolutionDir)\packages\EmguCV" "$(TargetDir)"</PreBuildEvent>
+  </PropertyGroup>
 </Project>
