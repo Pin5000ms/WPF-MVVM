@@ -27,18 +27,53 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
                 <RowDefinition Height="75"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <TextBlock Name="AAA"
-                       Text="TingYu"
+            <TextBlock Text="TingYu"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Center"
                        Foreground="White"
-                       FontSize="22" Grid.Row="0" Grid.Column="0"/>
+                       FontSize="22" Grid.Row="1" Grid.Column="0"/>
 
-            <StackPanel Grid.Row="1">
+            <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Height="42" Width="42" Style="{StaticResource ButtonClick}" Click="Minimize_Click" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Image/Minimize.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Height="42" Width="42" Click="Maximize_Click">
+                    <Button.Style>
+                        <Style TargetType="Button" BasedOn="{StaticResource ButtonClick}">
+                            <Setter Property="Background" Value="Transparent"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding WindowState, RelativeSource={RelativeSource AncestorType=Window}}" Value="Maximized">
+                                    <Setter Property="Background">
+                                        <Setter.Value>
+                                            <ImageBrush ImageSource="/Image/Restore.png" Stretch="Uniform"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding WindowState, RelativeSource={RelativeSource AncestorType=Window}}" Value="Normal">
+                                    <Setter Property="Background">
+                                        <Setter.Value>
+                                            <ImageBrush ImageSource="/Image/Maximize.png" Stretch="Uniform"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Button Height="42" Width="42" Style="{StaticResource ButtonClick}" Click="Close_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Image/MainWindow_close@3x.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Row="2">
                 <RadioButton Content="Home"
                              Height="50"
                              Foreground="White"
@@ -59,11 +94,11 @@
                              Style="{StaticResource MenuButtonTheme}"
                              Command="{Binding SudokuViewCommand}"/>
             </StackPanel>
-            
-            <TextBox Width="250" Height="40" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5" Grid.Row ="0" Grid.Column="1" 
+
+            <TextBox Width="250" Height="40" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5" Grid.Row ="1" Grid.Column="1" 
                      Style="{StaticResource ModernTextBox}"/>
-            
-            <ContentControl Grid.Row="1"
+
+            <ContentControl Grid.Row="2"
                             Grid.Column="1"
                             Margin="10"
                             Content="{Binding CurrentView}"/>

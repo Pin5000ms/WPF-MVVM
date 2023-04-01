@@ -19,8 +19,8 @@ namespace ModernDesign
     {
         public WebCamViewModel()
         {
-            Capture = new VideoCapture(0);
-            StartCapture();
+            //Capture = new VideoCapture(0);
+            //StartCapture();
         }
 
         private BitmapSource frame;
