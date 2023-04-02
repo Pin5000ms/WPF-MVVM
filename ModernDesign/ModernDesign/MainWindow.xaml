@@ -78,20 +78,20 @@
                              Height="50"
                              Foreground="White"
                              FontSize="14"
-                             Style="{StaticResource MenuButtonTheme}"
+                             Style="{StaticResource MenuButton}"
                              IsChecked="True"
                              Command="{Binding HomeViewCommand}"/>
                 <RadioButton Content="WebCam"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
-                             Style="{StaticResource MenuButtonTheme}"
+                             Style="{StaticResource MenuButton}"
                              Command="{Binding DiscoveryViewCommand}"/>
                 <RadioButton Content="Sudoku"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
-                             Style="{StaticResource MenuButtonTheme}"
+                             Style="{StaticResource MenuButton}"
                              Command="{Binding SudokuViewCommand}"/>
             </StackPanel>
 
