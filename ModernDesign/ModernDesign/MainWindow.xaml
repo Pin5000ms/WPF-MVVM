@@ -7,36 +7,33 @@
         mc:Ignorable="d"
         Height="600" Width="920"
         WindowStyle="None"
-        ResizeMode="NoResize"
+        ResizeMode="CanResizeWithGrip"
         Background="Transparent"
         AllowsTransparency="True"
-
         >
 
     <!--綁定MainViewModel與MainWindowView-->
-    <!--<Window.DataContext>
-        <MainViewModel/>
-    </Window.DataContext>-->
-
+    <Window.DataContext>
+        <local:MainViewModel/>
+    </Window.DataContext>
+    <Window.Resources>
+        <DoubleAnimation x:Key="CloseLeftPanel" Storyboard.TargetProperty="Width" To="50" Duration="0:0:0.2"/>
+        <DoubleAnimation x:Key="OpenLeftPanel" Storyboard.TargetProperty="Width" From="50" To="200" Duration="0:0:0.2"/>
+    </Window.Resources>
 
     <Border Background="#272537"
-            CornerRadius="10">
+            CornerRadius="8,8,0,8">
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="200"/>
-                <ColumnDefinition/>
+                <!--一定要左邊Auto搭配右邊*，才會在左側面板縮小時，右邊自動放大-->
+                <ColumnDefinition Width="Auto"/> 
+                <ColumnDefinition Width="4*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="30"/>
                 <RowDefinition Height="75"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-
-            <TextBlock Text="TingYu"
-                       VerticalAlignment="Center"
-                       HorizontalAlignment="Center"
-                       Foreground="White"
-                       FontSize="22" Grid.Row="1" Grid.Column="0"/>
 
             <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
                 <Button Height="42" Width="42" Style="{StaticResource ButtonClick}" Click="Minimize_Click" >
@@ -73,36 +70,163 @@
                     </Button.Background>
                 </Button>
             </StackPanel>
-            <StackPanel Grid.Row="2">
-                <RadioButton Content="Home"
-                             Height="50"
-                             Foreground="White"
-                             FontSize="14"
-                             Style="{StaticResource MenuButton}"
-                             IsChecked="True"
-                             Command="{Binding HomeViewCommand}"/>
-                <RadioButton Content="WebCam"
-                             Height="50"
-                             Foreground="White"
-                             FontSize="14"
-                             Style="{StaticResource MenuButton}"
-                             Command="{Binding DiscoveryViewCommand}"/>
-                <RadioButton Content="Sudoku"
-                             Height="50"
-                             Foreground="White"
-                             FontSize="14"
-                             Style="{StaticResource MenuButton}"
-                             Command="{Binding SudokuViewCommand}"/>
-            </StackPanel>
+
+            <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment ="Left">
+                <Grid.Style>
+                    <Style TargetType="Grid">
+                        <Setter Property="Width" Value="200"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsChecked, ElementName=LeftPanelShowHide}" Value="true">
+                                <DataTrigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <StaticResource ResourceKey="OpenLeftPanel"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </DataTrigger.EnterActions>
+                                <DataTrigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <StaticResource ResourceKey="CloseLeftPanel"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </DataTrigger.ExitActions>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Grid.Style>
+                <StackPanel Orientation="Horizontal">
+                    <ToggleButton x:Name="LeftPanelShowHide" IsChecked="{Binding IsLeftPanelOpen}" Width="30" Height="50" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0" >
+                        <ToggleButton.Style>
+                            <Style TargetType="{x:Type ToggleButton}">
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Setter Property="Background">
+                                    <Setter.Value>
+                                        <ImageBrush ImageSource="Image/bars-solid.png" Stretch="Uniform"/>
+                                    </Setter.Value>
+                                </Setter>
+
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="ToggleButton">
+                                            <Border Background="{TemplateBinding Background}">
+                                                <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </ToggleButton.Style>
+                    </ToggleButton>
+
+                    <TextBlock Text="TingYu"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left"
+                            Foreground="White"
+                            FontSize="22"
+                            Margin="30,0,0,0"/>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="2" Grid.Column="0" HorizontalAlignment ="Left">
+                <StackPanel Width="200" HorizontalAlignment ="Left">
+                    <RadioButton Content="Home"
+                                Height="50"
+                                Foreground="White"
+                                FontSize="14"
+                                Style="{StaticResource MenuButton}"
+                                IsChecked="True"
+                                Command="{Binding HomeViewCommand}">
+                        <RadioButton.Template>
+                            <ControlTemplate TargetType="RadioButton">
+                                <StackPanel
+                                Orientation="Horizontal"
+                                VerticalAlignment="Stretch"
+                                HorizontalAlignment="Stretch"
+                                Background="{TemplateBinding Background}">
+                                    <Image Width="30" Height="30" Margin="10" Source="/Image/home-solid.png"/>
+                                    <TextBlock Text="{TemplateBinding Property=Content}"
+                                    VerticalAlignment="Center"
+                                    Margin= "30,0,0,0"/>
+                                </StackPanel>
+                            </ControlTemplate>
+                        </RadioButton.Template>
+                    </RadioButton>
+                    <RadioButton Content="WebCam"
+                                 Height="50"
+                                 Foreground="White"
+                                 FontSize="14"
+                                 Style="{StaticResource MenuButton}"
+                                 Command="{Binding DiscoveryViewCommand}">
+                        <RadioButton.Template>
+                            <ControlTemplate TargetType="RadioButton">
+                                <StackPanel
+                                Orientation="Horizontal"
+                                VerticalAlignment="Stretch"
+                                HorizontalAlignment="Stretch"
+                                Background="{TemplateBinding Background}">
+                                    <Image Width="30" Height="30" Margin="10" Source="/Image/camera-solid.png"/>
+                                    <TextBlock Text="{TemplateBinding Property=Content}"
+                                    VerticalAlignment="Center"
+                                    Margin= "30,0,0,0"/>
+                                </StackPanel>
+                            </ControlTemplate>
+                        </RadioButton.Template>
+                    </RadioButton>
+                    <RadioButton Content="Sudoku"
+                                 Height="50"
+                                 Foreground="White"
+                                 FontSize="14"
+                                 Style="{StaticResource MenuButton}"
+                                 Command="{Binding SudokuViewCommand}">
+                        <RadioButton.Template>
+                            <ControlTemplate TargetType="RadioButton">
+                                <StackPanel
+                                Orientation="Horizontal"
+                                VerticalAlignment="Stretch"
+                                HorizontalAlignment="Stretch"
+                                Background="{TemplateBinding Background}">
+                                    <Image Width="30" Height="30" Margin="10" Source="/Image/gamepad-solid.png"/>
+                                    <TextBlock Text="{TemplateBinding Property=Content}"
+                                    VerticalAlignment="Center"
+                                    Margin= "30,0,0,0"/>
+                                </StackPanel>
+                            </ControlTemplate>
+                        </RadioButton.Template>
+                    </RadioButton>
+                </StackPanel>
+                <Grid.Style>
+                    <Style TargetType="Grid">
+                        <Setter Property="Width" Value="200"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsChecked, ElementName=LeftPanelShowHide}" Value="true">
+                                <DataTrigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <StaticResource ResourceKey="OpenLeftPanel"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </DataTrigger.EnterActions>
+                                <DataTrigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <StaticResource ResourceKey="CloseLeftPanel"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </DataTrigger.ExitActions>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Grid.Style>
+            </Grid>
 
             <TextBox Width="250" Height="40" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5" Grid.Row ="1" Grid.Column="1" 
                      Style="{StaticResource ModernTextBox}"/>
 
-            <ContentControl Grid.Row="2"
-                            Grid.Column="1"
-                            Margin="10"
-                            Content="{Binding CurrentView}"/>
-
+            <Grid Grid.Row="2" Grid.Column ="1">
+                <ContentControl Margin="10" Content="{Binding CurrentView}"/>
+            </Grid>
+            
         </Grid>
     </Border>
 </Window>

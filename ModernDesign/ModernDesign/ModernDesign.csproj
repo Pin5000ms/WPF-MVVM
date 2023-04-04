@@ -195,6 +195,14 @@
     <Resource Include="Image\Minimize.png" />
     <Resource Include="Image\Restore.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\bars-solid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\camera-solid.png" />
+    <Resource Include="Image\gamepad-solid.png" />
+    <Resource Include="Image\home-solid.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>xcopy /s /e /y "$(SolutionDir)\packages\EmguCV" "$(TargetDir)"</PreBuildEvent>

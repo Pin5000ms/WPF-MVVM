@@ -30,6 +30,19 @@ namespace ModernDesign
         public WebCamViewModel WebCamVM { get; set; }
 
         public SudokuView SudokuView { get; set; }
+
+        private bool isLeftPanelOpen = true;
+
+        public bool IsLeftPanelOpen
+        {
+            get { return isLeftPanelOpen; }
+            set 
+            { 
+                isLeftPanelOpen = value;
+                OnPropertyChanged();
+            }
+        }
+
         public MainViewModel()
         {
             var HomeVM = new HomeViewModel();
@@ -44,7 +57,7 @@ namespace ModernDesign
             DiscoveryViewCommand = new RelayCommand(o => { CurrentView = WebCamVM; });
             SudokuViewCommand = new RelayCommand(o => { CurrentView = SudokuView; });
 
-            CurrentView = WebCamVM;
+            CurrentView = HomeView;
 
         }
 

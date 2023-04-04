@@ -23,7 +23,6 @@ namespace ModernDesign
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new MainViewModel();
         }
 
         //解決 WindowStyle="None" 不能拖曳的問題
@@ -56,5 +55,6 @@ namespace ModernDesign
                 WindowState = WindowState.Normal;
             }
         }
+
     }
 }
