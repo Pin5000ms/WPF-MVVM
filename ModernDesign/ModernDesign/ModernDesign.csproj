@@ -99,10 +99,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Sudoku\SudokuCell.xaml.cs">
-      <DependentUpon>SudokuCell.xaml</DependentUpon>
+    <Compile Include="Sudoku\SudokuCellView.xaml.cs">
+      <DependentUpon>SudokuCellView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Sudoku\SudokuCellVM.cs" />
+    <Compile Include="Sudoku\SudokuCellViewModel.cs" />
     <Compile Include="Sudoku\SudokuModel.cs" />
     <Compile Include="Sudoku\SudokuView.xaml.cs">
       <DependentUpon>SudokuView.xaml</DependentUpon>
@@ -135,7 +135,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Sudoku\SudokuCell.xaml">
+    <Page Include="Sudoku\SudokuCellView.xaml">
       <SubType>Designer</SubType>
       <Generator>XamlIntelliSenseFileGenerator</Generator>
     </Page>

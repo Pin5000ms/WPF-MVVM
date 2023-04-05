@@ -16,7 +16,7 @@ namespace ModernDesign
         public SudokuViewModel()
         {
             WaitTime = "20";
-            CellList = new ObservableCollection<SudokuCell>();
+            CellList = new ObservableCollection<SudokuCellView>();
 
             SolveCommand = new RelayCommand(   
             o => {
@@ -38,7 +38,7 @@ namespace ModernDesign
             Question1();
             InitialPuzzle();
         }
-        public ObservableCollection<SudokuCell> CellList { get; set; }
+        public ObservableCollection<SudokuCellView> CellList { get; set; }
         public RelayCommand SolveCommand { get; set; }
 
         public RelayCommand ResetCommand { get; set; }
@@ -48,62 +48,62 @@ namespace ModernDesign
         private void Question1()
         {
             CellList.Clear();
-            var CellVM1 = new SudokuCellVM(new List<string> {
+            var CellVM1 = new SudokuCellViewModel(new List<string> {
                 "", "6", "",
                 "2", "", "3",
                 "", "", "" });
-            CellList.Add(new SudokuCell(CellVM1));
+            CellList.Add(new SudokuCellView(CellVM1));
 
-            var CellVM2 = new SudokuCellVM(new List<string> {
+            var CellVM2 = new SudokuCellViewModel(new List<string> {
                 "", "2", "",
                 "", "1", "5",
                 "6", "", "3" });
-            CellList.Add(new SudokuCell(CellVM2));
+            CellList.Add(new SudokuCellView(CellVM2));
 
-            var CellVM3 = new SudokuCellVM(new List<string> {
+            var CellVM3 = new SudokuCellViewModel(new List<string> {
                 "9", "1", "3",
                 "6", "8", "",
                 "2", "5", "4" });
-            CellList.Add(new SudokuCell(CellVM3));
+            CellList.Add(new SudokuCellView(CellVM3));
 
 
-            var CellVM4 = new SudokuCellVM(new List<string> {
+            var CellVM4 = new SudokuCellViewModel(new List<string> {
                 "", "2", "",
                 "1", "5", "",
                 "", "", "" });
-            CellList.Add(new SudokuCell(CellVM4));
+            CellList.Add(new SudokuCellView(CellVM4));
 
-            var CellVM5 = new SudokuCellVM(new List<string> {
+            var CellVM5 = new SudokuCellViewModel(new List<string> {
                 "", "", "1",
                 "", "4", "",
                 "2", "", "" });
-            CellList.Add(new SudokuCell(CellVM5));
+            CellList.Add(new SudokuCellView(CellVM5));
 
-            var CellVM6 = new SudokuCellVM(new List<string> {
+            var CellVM6 = new SudokuCellViewModel(new List<string> {
                 "3", "", "",
                 "", "", "6",
                 "8", "9", "" });
-            CellList.Add(new SudokuCell(CellVM6));
+            CellList.Add(new SudokuCellView(CellVM6));
 
 
 
-            var CellVM7 = new SudokuCellVM(new List<string> {
+            var CellVM7 = new SudokuCellViewModel(new List<string> {
                 "", "", "6",
                 "4", "", "7",
                 "9", "1", "2" });
-            CellList.Add(new SudokuCell(CellVM7));
+            CellList.Add(new SudokuCellView(CellVM7));
 
-            var CellVM8 = new SudokuCellVM(new List<string> {
+            var CellVM8 = new SudokuCellViewModel(new List<string> {
                 "", "", "2",
                 "", "9", "",
                 "7", "", "" });
-            CellList.Add(new SudokuCell(CellVM8));
+            CellList.Add(new SudokuCellView(CellVM8));
 
-            var CellVM9 = new SudokuCellVM(new List<string> {
+            var CellVM9 = new SudokuCellViewModel(new List<string> {
                 "", "7", "9",
                 "", "6", "2",
                 "5", "", "" });
-            CellList.Add(new SudokuCell(CellVM9));
+            CellList.Add(new SudokuCellView(CellVM9));
         }
 
         private void InitialPuzzle()
@@ -162,7 +162,7 @@ namespace ModernDesign
             CellList.Clear();
             for (int i = 0; i < 9; i++)
             {
-                CellList.Add(new SudokuCell(new SudokuCellVM(new List<string> {
+                CellList.Add(new SudokuCellView(new SudokuCellViewModel(new List<string> {
                 "", "", "",
                 "", "", "",
                 "", "", "" })));
