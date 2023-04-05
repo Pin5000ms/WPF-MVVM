@@ -301,7 +301,7 @@
                                                 Storyboard.TargetName="navigation_panel"
                                                 Storyboard.TargetProperty="Width"
                                                 BeginTime="0:0:0"
-                                                From="230" To="65"
+                                                From="200" To="65"
                                                 Duration="0:0:0.2">
                                             </DoubleAnimation>
                                         </Storyboard>
@@ -315,7 +315,7 @@
                                                 Storyboard.TargetName="navigation_panel"
                                                 Storyboard.TargetProperty="Width"
                                                 BeginTime="0:0:0"
-                                                From="65" To="230"
+                                                From="65" To="200"
                                                 Duration="0:0:0.3">
                                             </DoubleAnimation>
                                         </Storyboard>
@@ -336,10 +336,10 @@
                                BorderBrush="Transparent"
                                ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                                SelectedIndex="{Binding SelectIdx}">
+                        
                         <ListViewItem>
                             <StackPanel Orientation="Horizontal"
-                                        Width="230">
-
+                                        Width="200">
                                 <Image Source="Image/home-solid.png"
                                        Width="30"
                                        Height="30"
@@ -347,15 +347,14 @@
 
                                 <TextBlock Text="Home"
                                            Margin="25,0,0,0"
-                                           Style="{StaticResource font_style}"/>
-
+                                           Style="{StaticResource font_style}"
+                                           Width="130"/>
                             </StackPanel>
                         </ListViewItem>
 
                         <ListViewItem>
                             <StackPanel Orientation="Horizontal"
-                                        Width="230">
-
+                                        Width="200">
                                 <Image Source="Image/camera-solid.png"
                                        Width="30"
                                        Height="30"
@@ -363,15 +362,14 @@
 
                                 <TextBlock Text="WebCam"
                                            Margin="25,0,0,0"
-                                           Style="{StaticResource font_style}"/>
-
+                                           Style="{StaticResource font_style}"
+                                           Width="130"/>
                             </StackPanel>
                         </ListViewItem>
 
                         <ListViewItem>
                             <StackPanel Orientation="Horizontal"
-                                        Width="230">
-
+                                        Width="200">
                                 <Image Source="Image/gamepad-solid.png"
                                        Width="30"
                                        Height="30"
@@ -379,8 +377,8 @@
 
                                 <TextBlock Text="Sudoku"
                                            Margin="25,0,0,0"
-                                           Style="{StaticResource font_style}"/>
-
+                                           Style="{StaticResource font_style}"
+                                           Width="130"/>
                             </StackPanel>
                         </ListViewItem>
 
@@ -388,21 +386,30 @@
                         <ListView.ItemContainerStyle>
                             <!--客製該ListView中每個ListItem的呈現方式-->
                             <Style TargetType="ListViewItem">
-                                
                                 <Setter Property="Template">
                                     <Setter.Value>
                                         <ControlTemplate TargetType="{x:Type ListViewItem}">
-                                            <Border x:Name="Bd"
+
+                                            <StackPanel x:Name="sp"
+                                                        Orientation="Horizontal">
+                                                <Rectangle x:Name="rec" Width="10" Margin="5,0,0,0"/>
+                                                <ContentPresenter  HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                                    SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                                                                    VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                            </StackPanel>
+
+                                            <!--<Border x:Name="sp"
                                                     Height="50"
                                                     BorderBrush="{TemplateBinding BorderBrush}"
                                                     BorderThickness="{TemplateBinding BorderThickness}"
                                                     Background="{TemplateBinding Background}"
                                                     Padding="{TemplateBinding Padding}"
                                                     SnapsToDevicePixels="True">
-                                                <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
-                                                                  SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
-                                                                  VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
-                                            </Border>
+                                                <ContentPresenter 
+                                                    HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                    SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                                                    VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                            </Border>-->
 
                                             <ControlTemplate.Triggers>
 
@@ -413,22 +420,18 @@
                                                     </MultiTrigger.Conditions>
 
                                                     <Setter Property="Background"
-                                                            TargetName="Bd"
-                                                            Value="#404D5B"/>
-
-                                                    <Setter Property="BorderBrush"
-                                                            TargetName="Bd"
+                                                            TargetName="sp"
                                                             Value="#404D5B"/>
                                                 </MultiTrigger>
 
                                                 <!--選取時改變底色-->
                                                 <Trigger Property="IsSelected" Value="True">
                                                     <Setter Property="Background"
-                                                            TargetName="Bd"
+                                                            TargetName="sp"
                                                             Value="#22202f"/>
-                                                    <Setter Property="BorderBrush"
-                                                            TargetName="Bd"
-                                                            Value="#22202f"/>
+                                                    <Setter Property="Fill"
+                                                            TargetName="rec"
+                                                            Value="White"/>
                                                 </Trigger>
 
                                             </ControlTemplate.Triggers>
