@@ -14,14 +14,17 @@ namespace ModernDesign
     {
         public FlowChartViewModel()
         {
-            var c  = new SolidColorBrush(Colors.LightGreen);
+            var a = new SingleBlockView();
+            a.viewModel.BackGround = new SolidColorBrush(Colors.LightPink);
             var b = new SingleBlockView();
-            b.viewModel.BackGround = c;
-            var e = new SolidColorBrush(Colors.LightBlue);
-            var d = new SingleBlockView();
-            d.viewModel.BackGround = e;
+            b.viewModel.BackGround = new SolidColorBrush(Colors.LightGreen);
+            var c = new SingleBlockView();
+            c.viewModel.BackGround = new SolidColorBrush(Colors.LightBlue);
+
+
+            Blocks.Add(a);
             Blocks.Add(b);
-            Blocks.Add(d);
+            Blocks.Add(c);
         }
         private ObservableCollection<SingleBlockView> _blocks = new ObservableCollection<SingleBlockView>();
         public ObservableCollection<SingleBlockView> Blocks 

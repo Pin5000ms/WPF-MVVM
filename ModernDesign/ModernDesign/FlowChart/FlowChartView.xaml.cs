@@ -93,7 +93,7 @@ namespace ModernDesign
                 //-10避免擋到InputButton
                 DrawLine(mousePoint.X -10 , mousePoint.Y -10 , CurrentDrawingLineIndex);
             }
-            if(CurrentBlockIndex != -1)
+            if(CurrentBlockIndex != -1 && e.LeftButton == MouseButtonState.Pressed)
             {
                 UpdateLineLocation();
             }
