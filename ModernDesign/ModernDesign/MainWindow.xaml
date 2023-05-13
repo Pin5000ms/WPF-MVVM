@@ -9,9 +9,7 @@
         WindowStyle="None"
         ResizeMode="CanResizeWithGrip"
         Background="Transparent"
-        AllowsTransparency="True"
-        >
-
+        AllowsTransparency="True">
     <!--綁定MainViewModel與MainWindowView-->
     <Window.DataContext>
         <local:MainViewModel/>
@@ -31,6 +29,19 @@
             <Setter Property="FontSize"
                     Value="20"/>
         </Style>
+        <Style TargetType="Thumb">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Thumb">
+                        <Border Background="{TemplateBinding Background}" 
+                        BorderBrush="{TemplateBinding BorderBrush}" 
+                        BorderThickness="{TemplateBinding BorderThickness}" 
+                        SnapsToDevicePixels="True"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Window.Resources>
 
     <Border Background="#272537"
@@ -42,46 +53,50 @@
                 <ColumnDefinition Width="4*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="30"/>
+                <RowDefinition Height="50"/>
                 <RowDefinition Height="75"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-                <Button Height="42" Width="42" Style="{StaticResource ButtonClick}" Click="Minimize_Click" >
-                    <Button.Background>
-                        <ImageBrush ImageSource="Image/Minimize.png" Stretch="Uniform"/>
-                    </Button.Background>
-                </Button>
-                <Button Height="42" Width="42" Click="Maximize_Click">
-                    <Button.Style>
-                        <Style TargetType="Button" BasedOn="{StaticResource ButtonClick}">
-                            <Setter Property="Background" Value="Transparent"/>
-                            <Style.Triggers>
-                                <DataTrigger Binding="{Binding WindowState, RelativeSource={RelativeSource AncestorType=Window}}" Value="Maximized">
-                                    <Setter Property="Background">
-                                        <Setter.Value>
-                                            <ImageBrush ImageSource="/Image/Restore.png" Stretch="Uniform"/>
-                                        </Setter.Value>
-                                    </Setter>
-                                </DataTrigger>
-                                <DataTrigger Binding="{Binding WindowState, RelativeSource={RelativeSource AncestorType=Window}}" Value="Normal">
-                                    <Setter Property="Background">
-                                        <Setter.Value>
-                                            <ImageBrush ImageSource="/Image/Maximize.png" Stretch="Uniform"/>
-                                        </Setter.Value>
-                                    </Setter>
-                                </DataTrigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Button.Style>
-                </Button>
-                <Button Height="42" Width="42" Style="{StaticResource ButtonClick}" Click="Close_Click">
-                    <Button.Background>
-                        <ImageBrush ImageSource="Image/MainWindow_close@3x.png" Stretch="Uniform"/>
-                    </Button.Background>
-                </Button>
-            </StackPanel>
+            <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+
+                <Thumb DragDelta="Window_DragDelta" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Height="42" Width="42" Style="{StaticResource ButtonClick}" Click="Minimize_Click" >
+                        <Button.Background>
+                            <ImageBrush ImageSource="Image/Minimize.png" Stretch="Uniform"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Height="42" Width="42" Click="Maximize_Click">
+                        <Button.Style>
+                            <Style TargetType="Button" BasedOn="{StaticResource ButtonClick}">
+                                <Setter Property="Background" Value="Transparent"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding WindowState, RelativeSource={RelativeSource AncestorType=Window}}" Value="Maximized">
+                                        <Setter Property="Background">
+                                            <Setter.Value>
+                                                <ImageBrush ImageSource="/Image/Restore.png" Stretch="Uniform"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding WindowState, RelativeSource={RelativeSource AncestorType=Window}}" Value="Normal">
+                                        <Setter Property="Background">
+                                            <Setter.Value>
+                                                <ImageBrush ImageSource="/Image/Maximize.png" Stretch="Uniform"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                    <Button Height="42" Width="42" Style="{StaticResource ButtonClick}" Click="Close_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="Image/MainWindow_close@3x.png" Stretch="Uniform"/>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+            </Grid>
 
             <!--Grid套用Style, Style 根據toggle button IsChecked觸發動畫，將該Grid的Width改變-->
             <!--<Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment ="Left">
@@ -376,6 +391,21 @@
                                        Margin="12,10,0,10"/>
 
                                 <TextBlock Text="Sudoku"
+                                           Margin="25,0,0,0"
+                                           Style="{StaticResource font_style}"
+                                           Width="130"/>
+                            </StackPanel>
+                        </ListViewItem>
+
+                        <ListViewItem>
+                            <StackPanel Orientation="Horizontal"
+                                        Width="200">
+                                <Image Source="Image/link-solid.png"
+                                       Width="30"
+                                       Height="30"
+                                       Margin="12,10,0,10"/>
+
+                                <TextBlock Text="FlowChart"
                                            Margin="25,0,0,0"
                                            Style="{StaticResource font_style}"
                                            Width="130"/>

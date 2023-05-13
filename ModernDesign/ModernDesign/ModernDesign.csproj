@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BDEA1A3E-FF0D-47ED-B794-8FD1C97E4C23}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>ModernDesign</RootNamespace>
     <AssemblyName>ModernDesign</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -99,6 +99,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="FlowChart\FlowChartModel.cs" />
+    <Compile Include="FlowChart\FlowChartView.xaml.cs">
+      <DependentUpon>FlowChartView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FlowChart\FlowChartViewModel.cs" />
+    <Compile Include="FlowChart\SigleBlock.cs" />
+    <Compile Include="FlowChart\SingleBlockView.xaml.cs">
+      <DependentUpon>SingleBlockView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Sudoku\SudokuCellView.xaml.cs">
       <DependentUpon>SudokuCellView.xaml</DependentUpon>
     </Compile>
@@ -109,6 +118,14 @@
     </Compile>
     <Compile Include="Sudoku\SudokuViewModel.cs" />
     <Compile Include="Theme\BlockButton.cs" />
+    <Page Include="FlowChart\FlowChartView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FlowChart\SingleBlockView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -203,6 +220,9 @@
   <ItemGroup>
     <Resource Include="Image\bars-default.png" />
     <Resource Include="Image\bars-selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\link-solid.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -35,7 +35,7 @@ namespace ModernDesign
             InitializeComponent();
             DataContext = _homeVM;
             HomeVM = _homeVM;
-            CompositionTarget.Rendering += OnRendering;
+            //CompositionTarget.Rendering += OnRendering;
         }
         private void Drop(object sender, DragEventArgs e)
         {
@@ -113,12 +113,6 @@ namespace ModernDesign
                 e.Handled = true;
             }
             finally { }
-        }
-
-        private void OnRendering(object sender, EventArgs e)
-        {
-            
-            
         }
 
         private void PreviewMouseDown(object sender, MouseButtonEventArgs e)

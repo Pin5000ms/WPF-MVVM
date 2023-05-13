@@ -28,8 +28,9 @@ namespace ModernDesign
 
         public HomeView HomeView { get; set; }
         public WebCamViewModel WebCamVM { get; set; }
-
         public SudokuView SudokuView { get; set; }
+
+        public FlowChartView FlowChartView { get; set; }
 
         private bool isLeftPanelOpen = true;
 
@@ -43,7 +44,7 @@ namespace ModernDesign
             }
         }
 
-        private int selectIdx = 0;
+        private int selectIdx = 3;
         public int SelectIdx
         {
             get
@@ -69,11 +70,14 @@ namespace ModernDesign
             var SudokuVM = new SudokuViewModel();
             SudokuView = new SudokuView(SudokuVM);
 
+            var FlowChartVM = new FlowChartViewModel();
+            FlowChartView = new FlowChartView(FlowChartVM);
+
             //HomeViewCommand = new RelayCommand(o => { CurrentView = HomeView; });
             //DiscoveryViewCommand = new RelayCommand(o => { CurrentView = WebCamVM; });
             //SudokuViewCommand = new RelayCommand(o => { CurrentView = SudokuView; });
 
-            CurrentView = HomeView;
+            CurrentView = FlowChartView;
 
         }
 
@@ -89,6 +93,9 @@ namespace ModernDesign
                     break;
                 case 2:
                     CurrentView = SudokuView;
+                    break;
+                case 3:
+                    CurrentView = FlowChartView;
                     break;
             }
         }

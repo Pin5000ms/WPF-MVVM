@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -26,13 +27,13 @@ namespace ModernDesign
         }
 
         //解決 WindowStyle="None" 不能拖曳的問題
-        protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
-        {
-            base.OnMouseLeftButtonDown(e);
+        //protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
+        //{
+        //    base.OnMouseLeftButtonDown(e);
 
-            // Begin dragging the window
-            this.DragMove();
-        }
+        //    // Begin dragging the window
+        //    this.DragMove();
+        //}
 
         private void Close_Click(object sender, RoutedEventArgs e)
         {
@@ -56,5 +57,15 @@ namespace ModernDesign
             }
         }
 
+        private void Window_DragDelta(object sender, DragDeltaEventArgs e)
+        {
+            // 如果視窗為最大化狀態，則不處理拖曳事件
+            if (WindowState == WindowState.Maximized)
+                return;
+
+            // 移動視窗
+            Left += e.HorizontalChange;
+            Top += e.VerticalChange;
+        }
     }
 }
