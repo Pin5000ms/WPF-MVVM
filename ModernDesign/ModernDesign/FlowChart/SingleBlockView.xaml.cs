@@ -41,30 +41,31 @@ namespace ModernDesign
                 var canvas = FindCanvas(this);
                 Point newPosition = e.GetPosition(canvas);
 
-                //if(newPosition.X < startPosition.X || newPosition.Y < startPosition.Y||
-                //    newPosition.X > canvas.ActualWidth- startPosition.X || newPosition.Y > canvas.ActualHeight - startPosition.Y)
-                //{
-                //    return;
-                //}
-
                 var left = newPosition.X - startPosition.X;
                 var top = newPosition.Y - startPosition.Y;
 
-
-                if (newPosition.X > startPosition.X && newPosition.X < canvas.ActualWidth - (this.ActualWidth - startPosition.X))
+                if(left < 0)
                 {
-                    Canvas.SetLeft(this, left);
-                    viewModel.Left = left;
+                    left = 0;
+                }
+                if (left > canvas.ActualWidth - this.ActualWidth)
+                {
+                    left = canvas.ActualWidth - this.ActualWidth;
+                }
+                if(top < 0)
+                {
+                    top = 0;
+                }
+                if(top > canvas.ActualHeight - this.ActualHeight)
+                {
+                    top = canvas.ActualHeight - this.ActualHeight;
                 }
 
-                if (newPosition.Y > startPosition.Y && newPosition.Y < canvas.ActualHeight - (this.ActualHeight - startPosition.Y))
-                {
-                    Canvas.SetTop(this, top);
-                    viewModel.Top = top;
-                }
-
-                //Console.WriteLine(newPosition.X + "," + newPosition.Y);
-
+                Canvas.SetLeft(this, left);
+                Canvas.SetTop(this, top);
+                viewModel.Left = left;
+                viewModel.Top = top;
+                
             }
         }
 

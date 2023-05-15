@@ -12,7 +12,7 @@
         </DataTemplate>
     </UserControl.Resources>-->
     <Grid>
-        <Canvas Background="#FF2C3845" x:Name="FlowChartCanvas" MouseMove="CanvasMouseMove" MouseLeftButtonDown="CanvasMouseLeftButtonDown" MouseLeftButtonUp="CanvasMouseLeftButtonUp" MouseRightButtonDown="CanvasMouseRightButtonDown" MouseRightButtonUp="CanvasMouseRightButtonUp">
+        <Canvas Background="#FF2C3845" ClipToBounds="True" x:Name="FlowChartCanvas" MouseMove="CanvasMouseMove" MouseLeftButtonDown="CanvasMouseLeftButtonDown" MouseLeftButtonUp="CanvasMouseLeftButtonUp" MouseRightButtonDown="CanvasMouseRightButtonDown" MouseRightButtonUp="CanvasMouseRightButtonUp">
             <ItemsControl ItemsSource="{Binding Blocks}">
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
