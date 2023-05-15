@@ -65,7 +65,7 @@ namespace ModernDesign
 
 
 		public int InputLineIndex = -1;
-        public int OutputLineIndex = -1;
+        public List<int> OutputLineIds = new List<int>();
 
     }
 }

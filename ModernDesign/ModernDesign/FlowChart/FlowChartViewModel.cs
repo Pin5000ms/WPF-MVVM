@@ -27,7 +27,7 @@ namespace ModernDesign
             Blocks.Add(c);
         }
         private ObservableCollection<SingleBlockView> _blocks = new ObservableCollection<SingleBlockView>();
-        public ObservableCollection<SingleBlockView> Blocks 
+        public ObservableCollection<SingleBlockView> Blocks
         {
             get
             {
@@ -40,8 +40,8 @@ namespace ModernDesign
             }
         }
 
-        private ObservableCollection<Line> _lines = new ObservableCollection<Line>();
-        public ObservableCollection<Line> Lines
+        private ObservableCollection<LineWithId> _lines = new ObservableCollection<LineWithId>();
+        public ObservableCollection<LineWithId> Lines
         {
             get
             {
@@ -52,12 +52,6 @@ namespace ModernDesign
                 _lines = value;
                 OnPropertyChanged();
             }
-        }
-
-        public void DrawLine(double x2, double y2, int currentIdx)
-        {
-            Lines[currentIdx].X2 = x2;
-            Lines[currentIdx].Y2 = y2;
         }
     }
 }

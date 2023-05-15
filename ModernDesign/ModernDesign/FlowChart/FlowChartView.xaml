@@ -35,15 +35,6 @@
                         <Canvas/>
                     </ItemsPanelTemplate>
                 </ItemsControl.ItemsPanel>
-
-                <ItemsControl.ItemContainerStyle>
-                    <Style TargetType="Line">
-                        <Setter Property="Stroke" Value="White"/>
-                        <Setter Property="StrokeThickness" Value="3"/>
-                        <Setter Property="StrokeStartLineCap" Value="Round"/>
-                        <Setter Property="StrokeEndLineCap" Value="Round"/>
-                    </Style>
-                </ItemsControl.ItemContainerStyle>
             </ItemsControl>
             
         </Canvas>

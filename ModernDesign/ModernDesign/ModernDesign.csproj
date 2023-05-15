@@ -104,6 +104,9 @@
       <DependentUpon>FlowChartView.xaml</DependentUpon>
     </Compile>
     <Compile Include="FlowChart\FlowChartViewModel.cs" />
+    <Compile Include="FlowChart\LineWithId.xaml.cs">
+      <DependentUpon>LineWithId.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FlowChart\SigleBlock.cs" />
     <Compile Include="FlowChart\SingleBlockView.xaml.cs">
       <DependentUpon>SingleBlockView.xaml</DependentUpon>
@@ -119,6 +122,10 @@
     <Compile Include="Sudoku\SudokuViewModel.cs" />
     <Compile Include="Theme\BlockButton.cs" />
     <Page Include="FlowChart\FlowChartView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FlowChart\LineWithId.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
