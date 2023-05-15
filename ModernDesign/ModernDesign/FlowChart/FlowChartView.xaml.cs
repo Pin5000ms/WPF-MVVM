@@ -112,7 +112,8 @@ namespace ModernDesign
             if (isClickLine)
             {
                 RemoveLineHighLight();
-                var selectedLine = (Line)e.OriginalSource;
+                var parent = (e.OriginalSource as Line).Parent;
+                var selectedLine = parent as LineWithId;
                 AddLineHighLight(selectedLine);
             }
 
@@ -132,9 +133,11 @@ namespace ModernDesign
 
         private void CanvasMouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
-            if (e.OriginalSource is Line)
+            bool isClickLine = e.OriginalSource is Line;
+            if (isClickLine)
             {
-                var selectedLine = (Line)e.OriginalSource;
+                var parent = (e.OriginalSource as Line).Parent;
+                var selectedLine = parent as LineWithId;
 
 
                 AddLineHighLight(selectedLine);
@@ -149,9 +152,8 @@ namespace ModernDesign
                     // 從ViewModel中移除該Line的HighLight
                     RemoveLineHighLight();
 
-                    var lineIndex = flowchartVM.Lines.First(l => CheckLine(l, selectedLine));
                     // 從ViewModel中移除該Line
-                    DeleteLine(lineIndex.ID);
+                    DeleteLine(selectedLine.ID);
                 };
                 contextMenu.Items.Add(menuItem);
 
@@ -248,7 +250,7 @@ namespace ModernDesign
 
             }
         }
-        private void AddLineHighLight(Line selectedLine)
+        private void AddLineHighLight(LineWithId selectedLine)
         {
             if (selectedLineHighLight == null)
             {
