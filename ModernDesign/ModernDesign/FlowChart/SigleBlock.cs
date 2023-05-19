@@ -70,7 +70,7 @@ namespace ModernDesign
 
         public string Id;
 
-		public int InputLineId = -1;
+		public List<int> InputLineIds = new List<int>();
         public List<int> OutputLineIds = new List<int>();
 
     }

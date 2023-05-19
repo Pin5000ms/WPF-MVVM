@@ -94,12 +94,14 @@ namespace ModernDesign
         {
             viewModel.DrawingLine = false;
             InputButtonClicked = true;
+            OutputButtonClicked = false;
         }
 
         private void OutputMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             viewModel.DrawingLine = true;
             OutputButtonClicked = true;
+            InputButtonClicked = false;
         }
 
     }

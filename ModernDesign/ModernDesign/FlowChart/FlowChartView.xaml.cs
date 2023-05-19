@@ -55,7 +55,7 @@ namespace ModernDesign
                         endBlock.OutputButtonClicked = false;
                         endBlock.viewModel.DrawingLine = false;
                     }
-                    else//連接完成，更新末端點
+                    else if(endBlock.InputButtonClicked)//連接完成，更新末端點
                     {
                         var index = FindLineIndexById(CurrentDrawingLineId);
                         if (index != -1)
@@ -63,8 +63,8 @@ namespace ModernDesign
                             flowchartVM.Lines[index].PrevBlockIndex = startBlockIndex;
                             flowchartVM.Lines[index].NextBlockIndex = endBlockIndex;
                         }
-                        DrawLineEnd(endBlockIndex);
                         endBlock.InputButtonClicked = false;
+                        DrawLineEnd(endBlockIndex);
                         RegistAction(startBlockIndex, endBlockIndex);
                     }
                 }
@@ -181,11 +181,16 @@ namespace ModernDesign
         private void UpdateLineLocation()
         {
             var movingBlock = flowchartVM.Blocks[CurrentBlockIndex].viewModel;
-            var inputLine = flowchartVM.Lines.FirstOrDefault(l => l.ID == movingBlock.InputLineId);
-            if (movingBlock.InputLineId != -1 && inputLine != null)
+
+            if (movingBlock.InputLineIds.Count != 0)
             {
-                var inputLineindex = flowchartVM.Lines.IndexOf(inputLine);
-                flowchartVM.Lines[inputLineindex].SetEnd(movingBlock.InputX, movingBlock.InputY);
+                foreach (var Id in movingBlock.InputLineIds)
+                {
+                    var index = FindLineIndexById(Id);
+                    if (index != -1)
+                        flowchartVM.Lines[index].SetEnd(movingBlock.InputX, movingBlock.InputY);
+                }
+
             }
             if (movingBlock.OutputLineIds.Count != 0)
             {
@@ -223,16 +228,19 @@ namespace ModernDesign
             var Y2 = flowchartVM.Blocks[EndBlockIndex].viewModel.InputY;
             DrawLine(X2, Y2, CurrentDrawingLineId);
             flowchartVM.Blocks[CurrentBlockIndex].viewModel.DrawingLine = false;
-            flowchartVM.Blocks[EndBlockIndex].viewModel.InputLineId = CurrentDrawingLineId;
+            flowchartVM.Blocks[EndBlockIndex].viewModel.InputLineIds.Add(CurrentDrawingLineId);
             CurrentDrawingLineId = -1;
         }
         private void DeleteLine(int deleteLineId)
         {
             foreach (var block in flowchartVM.Blocks)
             {
-                if (block.viewModel.InputLineId == deleteLineId)
+                for (int i = 0; i < block.viewModel.InputLineIds.Count; i++)
                 {
-                    block.viewModel.InputLineId = -1;
+                    if (block.viewModel.InputLineIds[i] == deleteLineId)
+                    {
+                        block.viewModel.InputLineIds.RemoveAt(i);
+                    }
                 }
                 for (int i = 0; i < block.viewModel.OutputLineIds.Count; i++)
                 {
@@ -277,19 +285,6 @@ namespace ModernDesign
                 flowchartVM.Lines.Add(selectedLineHighLight);
             }
 
-        }
-
-        private bool CheckLine(LineWithId line1, Line line2)
-        {
-            if (Math.Abs(line1.X1 - line2.X1) < 5 && Math.Abs(line1.Y1 - line2.Y1) < 5 &&
-               Math.Abs(line1.X2 - line2.X2) < 5 && Math.Abs(line1.Y2 - line2.Y2) < 5)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
         }
 
         private int FindLineIndexById(int Id)
