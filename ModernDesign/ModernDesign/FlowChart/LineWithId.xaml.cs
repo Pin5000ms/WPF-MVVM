@@ -20,6 +20,9 @@ namespace ModernDesign
             set;
         }
 
+        public int NextBlockIndex { get; set; }
+        public int PrevBlockIndex { get; set; }
+
         public void SetStartEnd(double X1, double Y1, double X2, double Y2)
         {
             line.X1 = X1;

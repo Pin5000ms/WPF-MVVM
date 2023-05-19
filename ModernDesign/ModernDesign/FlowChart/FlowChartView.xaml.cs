@@ -42,22 +42,30 @@ namespace ModernDesign
         {
             if (CurrentBlockIndex != -1)
             {
-                //連接完成，更新末端點
+                
                 if (CurrentDrawingLineId != -1)
                 {
                     var endBlock = sender as SingleBlockView;
                     var endBlockIndex = flowchartVM.Blocks.IndexOf(endBlock);
 
+                    //取消連接
                     if (startBlockIndex == endBlockIndex || endBlock.OutputButtonClicked)
                     {
                         CancelDrawLine();
                         endBlock.OutputButtonClicked = false;
                         endBlock.viewModel.DrawingLine = false;
                     }
-                    else
+                    else//連接完成，更新末端點
                     {
+                        var index = FindLineIndexById(CurrentDrawingLineId);
+                        if (index != -1)
+                        {
+                            flowchartVM.Lines[index].PrevBlockIndex = startBlockIndex;
+                            flowchartVM.Lines[index].NextBlockIndex = endBlockIndex;
+                        }
                         DrawLineEnd(endBlockIndex);
                         endBlock.InputButtonClicked = false;
+                        RegistAction(startBlockIndex, endBlockIndex);
                     }
                 }
             }
@@ -173,8 +181,8 @@ namespace ModernDesign
         private void UpdateLineLocation()
         {
             var movingBlock = flowchartVM.Blocks[CurrentBlockIndex].viewModel;
-            var inputLine = flowchartVM.Lines.FirstOrDefault(l => l.ID == movingBlock.InputLineIndex);
-            if (movingBlock.InputLineIndex != -1 && inputLine != null)
+            var inputLine = flowchartVM.Lines.FirstOrDefault(l => l.ID == movingBlock.InputLineId);
+            if (movingBlock.InputLineId != -1 && inputLine != null)
             {
                 var inputLineindex = flowchartVM.Lines.IndexOf(inputLine);
                 flowchartVM.Lines[inputLineindex].SetEnd(movingBlock.InputX, movingBlock.InputY);
@@ -215,26 +223,34 @@ namespace ModernDesign
             var Y2 = flowchartVM.Blocks[EndBlockIndex].viewModel.InputY;
             DrawLine(X2, Y2, CurrentDrawingLineId);
             flowchartVM.Blocks[CurrentBlockIndex].viewModel.DrawingLine = false;
-            flowchartVM.Blocks[EndBlockIndex].viewModel.InputLineIndex = CurrentDrawingLineId;
+            flowchartVM.Blocks[EndBlockIndex].viewModel.InputLineId = CurrentDrawingLineId;
             CurrentDrawingLineId = -1;
         }
         private void DeleteLine(int deleteLineId)
         {
             foreach (var block in flowchartVM.Blocks)
             {
-                if (block.viewModel.InputLineIndex == deleteLineId)
+                if (block.viewModel.InputLineId == deleteLineId)
                 {
-                    block.viewModel.InputLineIndex = -1;
+                    block.viewModel.InputLineId = -1;
                 }
                 for (int i = 0; i < block.viewModel.OutputLineIds.Count; i++)
                 {
                     if (block.viewModel.OutputLineIds[i] == deleteLineId)
+                    {
                         block.viewModel.OutputLineIds.RemoveAt(i);
+                    }
                 }
             }
             var index = FindLineIndexById(deleteLineId);
             if (index != -1)
+            {
+                var PrevBlockId = flowchartVM.Lines[index].PrevBlockIndex;
+                var NextBlockId = flowchartVM.Lines[index].NextBlockIndex;
                 flowchartVM.Lines.RemoveAt(index);
+                UnRegistAction(PrevBlockId, NextBlockId);
+            }
+                
         }
         private void RemoveLineHighLight()
         {
@@ -287,5 +303,14 @@ namespace ModernDesign
             return index;
         }
 
+
+        private void RegistAction(int PrevBlockId, int NextBlockId)
+        {
+            flowchartVM.Blocks[PrevBlockId].viewModel.BlockAction.OutputAction += flowchartVM.Blocks[NextBlockId].viewModel.BlockAction.InputAction;
+        }
+        private void UnRegistAction(int PrevBlockId, int NextBlockId)
+        {
+            flowchartVM.Blocks[PrevBlockId].viewModel.BlockAction.OutputAction -= flowchartVM.Blocks[NextBlockId].viewModel.BlockAction.InputAction;
+        }
     }
 }

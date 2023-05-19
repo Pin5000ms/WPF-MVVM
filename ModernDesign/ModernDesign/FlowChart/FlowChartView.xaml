@@ -12,6 +12,10 @@
         </DataTemplate>
     </UserControl.Resources>-->
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
         <Canvas Background="#FF2C3845" ClipToBounds="True" x:Name="FlowChartCanvas" MouseMove="CanvasMouseMove" MouseLeftButtonDown="CanvasMouseLeftButtonDown" MouseLeftButtonUp="CanvasMouseLeftButtonUp" MouseRightButtonDown="CanvasMouseRightButtonDown" MouseRightButtonUp="CanvasMouseRightButtonUp">
             <ItemsControl ItemsSource="{Binding Blocks}">
                 <ItemsControl.ItemsPanel>
@@ -38,5 +42,16 @@
             </ItemsControl>
             
         </Canvas>
+        
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Command="{Binding StartCommand}" Content="Run"  Grid.Column="0" Background="Transparent" Foreground="White"/>
+            <Button Command="{Binding StopCommand}" Content="Stop"  Grid.Column="1" Background="Transparent" Foreground="White"/>
+        </Grid>
+        
     </Grid>
 </UserControl>

@@ -30,7 +30,6 @@ namespace ModernDesign
         {
             this.isDragging = true;
             this.startPosition = e.GetPosition(this);
-            //Console.WriteLine(startPosition.X + "," + startPosition.Y);
             this.CaptureMouse();
         }
 

@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Windows.Media;
@@ -14,7 +15,11 @@ namespace ModernDesign
 {
     public class SingleBlock : ObservableObject
     {
-
+        public BlockActionBase BlockAction { get; set; }
+        public SingleBlock()
+        {
+            BlockAction = new BlockActionBase();
+        }
         public bool DrawingLine;
 
         private SolidColorBrush backGround;
@@ -63,8 +68,9 @@ namespace ModernDesign
             get { return Top + 38; }
         }
 
+        public string Id;
 
-		public int InputLineIndex = -1;
+		public int InputLineId = -1;
         public List<int> OutputLineIds = new List<int>();
 
     }
